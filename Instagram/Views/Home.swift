@@ -9,13 +9,26 @@ import SwiftUI
 
 struct Home: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        ZStack(alignment: .top) {
+            Color.background
+                .ignoresSafeArea()
+            
+            VStack {
+                HStack {
+                    Text("Instagram")
+                        .font(.system(size: 18, weight: .semibold))
+                    Spacer()
+                    HStack(spacing: 24) {
+                        Image(systemName: "heart")
+                        Image(systemName: "message")
+                    }
+                    .font(.system(size: 18, weight: .bold))
+                }
+                .foregroundStyle(.primaryText)
+                .padding(.horizontal)
+            }
+            .padding(.top, 8)
         }
-        .padding()
     }
 }
 
