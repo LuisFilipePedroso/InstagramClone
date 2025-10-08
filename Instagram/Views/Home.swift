@@ -14,21 +14,25 @@ struct Home: View {
                 .ignoresSafeArea()
             
             VStack {
-                HStack {
-                    Text("Instagram")
-                        .font(.system(size: 18, weight: .semibold))
-                    Spacer()
-                    HStack(spacing: 24) {
-                        Image(systemName: "heart")
-                        Image(systemName: "message")
-                    }
-                    .font(.system(size: 18, weight: .bold))
-                }
-                .foregroundStyle(.primaryText)
-                .padding(.horizontal)
+                Header
             }
             .padding(.top, 8)
         }
+    }
+    
+    private var Header: some View {
+        HStack {
+            Text("Instagram")
+                .font(.system(size: 18, weight: .semibold))
+            Spacer()
+            HStack(spacing: 24) {
+                Image(systemName: "heart")
+                Image(systemName: "message")
+            }
+            .font(.system(size: 18, weight: .bold))
+        }
+        .foregroundStyle(.primaryText)
+        .padding(.horizontal)
     }
 }
 
