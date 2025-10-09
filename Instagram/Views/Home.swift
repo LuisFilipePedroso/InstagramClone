@@ -15,6 +15,7 @@ struct Home: View {
             
             VStack {
                 Header
+                Reels
             }
             .padding(.top, 8)
         }
@@ -33,6 +34,21 @@ struct Home: View {
         }
         .foregroundStyle(.primaryText)
         .padding(.horizontal)
+    }
+    
+    private var Reels: some View {
+        ScrollView(.horizontal, showsIndicators: false) {
+            LazyHStack(alignment: .top, spacing: 16) {
+                ForEach(0..<10) { _ in
+                    Circle()
+                        .fill(Color.surface)
+                        .frame(width: 64, height: 64)
+                }
+            }
+            .padding(.horizontal)
+            .padding(.top, 24)
+        }
+        
     }
 }
 
