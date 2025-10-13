@@ -48,7 +48,7 @@ struct Home: View {
             }
             .font(.system(size: 18, weight: .bold))
         }
-        .foregroundStyle(.primaryText)
+        .foregroundStyle(.secondaryText)
         .padding(.horizontal)
     }
     
@@ -56,9 +56,14 @@ struct Home: View {
         ScrollView(.horizontal, showsIndicators: false) {
             LazyHStack(alignment: .top, spacing: 16) {
                 ForEach(0..<10) { _ in
-                    Circle()
-                        .fill(Color.surface)
-                        .frame(width: 64, height: 64)
+                    VStack {
+                        Circle()
+                            .fill(Color.surface)
+                            .frame(width: 64, height: 64)
+                        Text("johndoe")
+                            .foregroundStyle(.secondaryText)
+                            .font(.system(size: 16))
+                    }
                 }
             }
             .padding(.horizontal)
@@ -70,18 +75,46 @@ struct Home: View {
     private var Feed: some View {
         LazyVStack {
             ForEach(0..<100, id: \.self) { _ in
-                HStack {
-                    Circle()
+                VStack {
+                    HStack {
+                        Circle()
+                            .fill(Color.surface)
+                            .frame(width: 40, height: 40)
+                        Text("luisfpedroso")
+                        Spacer()
+                        Image(systemName: "ellipsis")
+                            .font(.system(size: 18, weight: .bold))
+                    }
+                    .foregroundStyle(.primaryText)
+                    RoundedRectangle(cornerRadius: 8)
                         .fill(Color.surface)
-                        .frame(width: 32, height: 32)
-                    Text("luisfpedroso")
-                    Spacer()
-                    Image(systemName: "ellipsis")
-                        .font(.system(size: 18, weight: .bold))
+                        .frame(height: 300)
+                    
+                    HStack {
+                        FeedActionButton(iconName: "heart", text: 3000)
+                        FeedActionButton(iconName: "bubble.right", text: 20)
+                        FeedActionButton(iconName: "arrow.2.squarepath", text: 11)
+                        FeedActionButton(iconName: "paperplane", text: 249)
+                        Spacer()
+                        Image(systemName: "bookmark")
+                            .font(.system(size: 18, weight: .bold))
+                            .foregroundStyle(.primaryText)
+                    }
+                    .padding(.top, 8)
+                        
                 }
-                .foregroundStyle(.primaryText)
+                .padding()
             }
         }
+    }
+    
+    private func FeedActionButton(iconName: String, text: Int) -> some View {
+        HStack(spacing: 4) {
+            Image(systemName: iconName)
+                .font(.system(size: 18, weight: .bold))
+            Text("\(text)")
+        }
+        .foregroundStyle(.primaryText)
     }
 }
 
