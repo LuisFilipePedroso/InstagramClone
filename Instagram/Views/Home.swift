@@ -8,16 +8,32 @@
 import SwiftUI
 
 struct Home: View {
+    
+    @State private var headerOpacity: Double = 1
+    
     var body: some View {
         ZStack(alignment: .top) {
-            Color.background
-                .ignoresSafeArea()
+            Color.background.ignoresSafeArea()
             
             VStack {
                 Header
-                Reels
+                    .opacity(headerOpacity)
+                ScrollView(showsIndicators: false) {
+                    LazyVStack {
+                        Reels
+                        Feed
+                    }
+                    .padding(.top, 8)
+                }
+                .onScrollGeometryChange(for: CGFloat.self) { geometry in
+                    geometry.contentOffset.y
+                } action: { oldValue, newValue in
+                    let fadeDistance: CGFloat = 100
+                    let opacity = 1.0 - (newValue / fadeDistance)
+                    headerOpacity = max(0, min(1, opacity))
+                }
+
             }
-            .padding(.top, 8)
         }
     }
     
@@ -49,6 +65,23 @@ struct Home: View {
             .padding(.top, 24)
         }
         
+    }
+    
+    private var Feed: some View {
+        LazyVStack {
+            ForEach(0..<100, id: \.self) { _ in
+                HStack {
+                    Circle()
+                        .fill(Color.surface)
+                        .frame(width: 32, height: 32)
+                    Text("luisfpedroso")
+                    Spacer()
+                    Image(systemName: "ellipsis")
+                        .font(.system(size: 18, weight: .bold))
+                }
+                .foregroundStyle(.primaryText)
+            }
+        }
     }
 }
 
