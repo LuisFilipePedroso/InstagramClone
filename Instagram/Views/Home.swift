@@ -10,6 +10,7 @@ import SwiftUI
 struct Home: View {
     
     @State private var headerOpacity: Double = 1
+    @State private var viewModel = HomeViewModel()
     
     var body: some View {
         ZStack(alignment: .top) {
@@ -34,6 +35,9 @@ struct Home: View {
                 }
 
             }
+        }
+        .task {
+            await viewModel.fetchPosts()
         }
     }
     
@@ -69,32 +73,51 @@ struct Home: View {
             .padding(.horizontal)
             .padding(.top, 24)
         }
-        
     }
     
     private var Feed: some View {
         LazyVStack {
-            ForEach(0..<100, id: \.self) { _ in
+            ForEach(viewModel.posts) { post in
                 VStack {
                     HStack {
-                        Circle()
-                            .fill(Color.surface)
-                            .frame(width: 40, height: 40)
-                        Text("luisfpedroso")
+                        AsyncImage(url: URL(string: post.userAvatar)) { image in
+                            image
+                                .resizable()
+                                .aspectRatio(contentMode: .fill)
+                                .frame(width: 40, height: 40)
+                                .clipShape(Circle())
+                        } placeholder: {
+                            ProgressView()
+                        }
+                        Text(post.username)
                         Spacer()
                         Image(systemName: "ellipsis")
                             .font(.system(size: 18, weight: .bold))
                     }
                     .foregroundStyle(.primaryText)
-                    RoundedRectangle(cornerRadius: 8)
-                        .fill(Color.surface)
-                        .frame(height: 300)
-                    
+                    AsyncImage(url: URL(string: post.imageURL)) { phase in
+                        switch phase {
+                        case .success(let image):
+                            image
+                              .resizable()
+                              .aspectRatio(contentMode: .fill)
+                              .frame(height: 300)
+                              .clipShape(RoundedRectangle(cornerRadius: 8))
+                        case .empty:
+                             RoundedRectangle(cornerRadius: 8)
+                                .fill(Color.surface)
+                                .frame(height: 300)
+                        default:
+                            RoundedRectangle(cornerRadius: 8)
+                                .fill(Color.surface)
+                                .frame(height: 300)
+                        }
+                    }
                     HStack {
-                        FeedActionButton(iconName: "heart", text: 3000)
-                        FeedActionButton(iconName: "bubble.right", text: 20)
-                        FeedActionButton(iconName: "arrow.2.squarepath", text: 11)
-                        FeedActionButton(iconName: "paperplane", text: 249)
+                        FeedActionButton(iconName: "heart", text: post.likes)
+                        FeedActionButton(iconName: "bubble.right", text: post.comments.count)
+                        FeedActionButton(iconName: "arrow.2.squarepath", text: post.reposts)
+                        FeedActionButton(iconName: "paperplane", text: post.sends)
                         Spacer()
                         Image(systemName: "bookmark")
                             .font(.system(size: 18, weight: .bold))
@@ -104,6 +127,14 @@ struct Home: View {
                         
                 }
                 .padding()
+                .onAppear {
+                    if post.id == viewModel.posts.last?.id {
+                        Task {
+                            await viewModel.fetchPosts()
+                        }
+                        print("Last: \(post)")
+                    }
+                }
             }
         }
     }
