@@ -7,12 +7,34 @@
 
 import SwiftUI
 
-struct HomeViewModel: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+@MainActor
+@Observable
+class HomeViewModel {
+    
+    private(set) var posts: [Post] = []
+    private var page = 1
+    private var isLoading = false
+    private var hasMore = true
+    
+    private let postDataService = PostDataService()
+    
+    func fetchPosts() async {
+        
+        guard !isLoading, hasMore else {
+            return
+        }
+        
+        self.isLoading = true
+        
+        do {
+            let posts = try await postDataService.getPosts(page: self.page)
+            self.posts.append(contentsOf: posts.data)
+            self.page += 1
+            hasMore = posts.next != nil
+        } catch {
+            print("Error fetching posts: \(error)")
+        }
+        
+        self.isLoading = false
     }
-}
-
-#Preview {
-    HomeViewModel()
 }
