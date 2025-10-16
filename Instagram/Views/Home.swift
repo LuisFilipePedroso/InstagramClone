@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SDWebImageSwiftUI
 
 struct Home: View {
     
@@ -76,64 +77,45 @@ struct Home: View {
     }
     
     private var Feed: some View {
-        LazyVStack {
-            ForEach(viewModel.posts) { post in
-                VStack {
-                    HStack {
-                        AsyncImage(url: URL(string: post.userAvatar)) { image in
-                            image
-                                .resizable()
-                                .aspectRatio(contentMode: .fill)
-                                .frame(width: 40, height: 40)
-                                .clipShape(Circle())
-                        } placeholder: {
-                            ProgressView()
-                        }
-                        Text(post.username)
-                        Spacer()
-                        Image(systemName: "ellipsis")
-                            .font(.system(size: 18, weight: .bold))
-                    }
-                    .foregroundStyle(.primaryText)
-                    AsyncImage(url: URL(string: post.imageURL)) { phase in
-                        switch phase {
-                        case .success(let image):
-                            image
-                              .resizable()
-                              .aspectRatio(contentMode: .fill)
-                              .frame(height: 300)
-                              .clipShape(RoundedRectangle(cornerRadius: 8))
-                        case .empty:
-                             RoundedRectangle(cornerRadius: 8)
-                                .fill(Color.surface)
-                                .frame(height: 300)
-                        default:
-                            RoundedRectangle(cornerRadius: 8)
-                                .fill(Color.surface)
-                                .frame(height: 300)
-                        }
-                    }
-                    HStack {
-                        FeedActionButton(iconName: "heart", text: post.likes)
-                        FeedActionButton(iconName: "bubble.right", text: post.comments.count)
-                        FeedActionButton(iconName: "arrow.2.squarepath", text: post.reposts)
-                        FeedActionButton(iconName: "paperplane", text: post.sends)
-                        Spacer()
-                        Image(systemName: "bookmark")
-                            .font(.system(size: 18, weight: .bold))
-                            .foregroundStyle(.primaryText)
-                    }
-                    .padding(.top, 8)
-                        
+        ForEach(viewModel.posts) { post in
+            VStack {
+                HStack {
+                    WebImage(url: URL(string: post.userAvatar))
+                        .resizable()
+                        .aspectRatio(contentMode: .fill)
+                        .frame(width: 40, height: 40)
+                        .clipShape(Circle())
+                    Text(post.username)
+                    Spacer()
+                    Image(systemName: "ellipsis")
+                        .font(.system(size: 18, weight: .bold))
                 }
-                .padding()
-                .onAppear {
-                    if post.id == viewModel.posts.last?.id {
-                        Task {
-                            await viewModel.fetchPosts()
-                        }
-                        print("Last: \(post)")
+                .foregroundStyle(.primaryText)
+                WebImage(url: URL(string: post.imageURL))
+                    .resizable()
+                    .aspectRatio(contentMode: .fill)
+                    .frame(height: 300)
+                    .clipShape(RoundedRectangle(cornerRadius: 8))
+                HStack {
+                    FeedActionButton(iconName: "heart", text: post.likes)
+                    FeedActionButton(iconName: "bubble.right", text: post.comments.count)
+                    FeedActionButton(iconName: "arrow.2.squarepath", text: post.reposts)
+                    FeedActionButton(iconName: "paperplane", text: post.sends)
+                    Spacer()
+                    Image(systemName: "bookmark")
+                        .font(.system(size: 18, weight: .bold))
+                        .foregroundStyle(.primaryText)
+                }
+                .padding(.top, 8)
+                    
+            }
+            .padding()
+            .onAppear {
+                if post.id == viewModel.posts.last?.id {
+                    Task {
+                        await viewModel.fetchPosts()
                     }
+                    print("Last: \(post)")
                 }
             }
         }

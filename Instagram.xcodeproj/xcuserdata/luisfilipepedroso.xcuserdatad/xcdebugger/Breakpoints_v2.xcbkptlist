@@ -18,6 +18,50 @@
             endingLineNumber = "32"
             landmarkName = "getPosts(page:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1731424D-4436-4951-8E04-47E8DA662454 - 5ec05f181e41c107"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for Instagram.PostDataService.getPosts(page: Swift.Int) async throws -&gt; Instagram.PostResponse"
+                  moduleName = "Instagram.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luisfilipepedroso/Documents/Projects/Swift/Instagram/Instagram/Services/PostService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32">
+               </Location>
+               <Location
+                  uuid = "1731424D-4436-4951-8E04-47E8DA662454 - 885d73eb5d03b50d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for Instagram.PostDataService.getPosts(page: Swift.Int) async throws -&gt; Instagram.PostResponse"
+                  moduleName = "Instagram.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luisfilipepedroso/Documents/Projects/Swift/Instagram/Instagram/Services/PostService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32">
+               </Location>
+               <Location
+                  uuid = "1731424D-4436-4951-8E04-47E8DA662454 - 2d24fa12e2634f30"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for Instagram.PostDataService.getPosts(page: Swift.Int) async throws -&gt; Instagram.PostResponse"
+                  moduleName = "Instagram.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luisfilipepedroso/Documents/Projects/Swift/Instagram/Instagram/Services/PostService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
