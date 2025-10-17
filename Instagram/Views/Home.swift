@@ -12,6 +12,7 @@ struct Home: View {
     
     @State private var headerOpacity: Double = 1
     @State private var viewModel = HomeViewModel()
+    @State private var activePost: Post? = nil
     
     var body: some View {
         ZStack(alignment: .top) {
@@ -39,6 +40,11 @@ struct Home: View {
         }
         .task {
             await viewModel.fetchPosts()
+        }
+        .sheet(item: $activePost, onDismiss: {
+            activePost = nil
+        }) { post in
+            Comments(post: post)
         }
     }
     
@@ -99,6 +105,9 @@ struct Home: View {
                 HStack {
                     FeedActionButton(iconName: "heart", text: post.likes)
                     FeedActionButton(iconName: "bubble.right", text: post.comments.count)
+                        .onTapGesture {
+                            activePost = post
+                        }
                     FeedActionButton(iconName: "arrow.2.squarepath", text: post.reposts)
                     FeedActionButton(iconName: "paperplane", text: post.sends)
                     Spacer()
