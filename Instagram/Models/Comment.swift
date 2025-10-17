@@ -7,8 +7,9 @@
 
 import Foundation
 
-struct Comment: Codable {
+struct Comment: Codable, Identifiable {
     let id: String
-    let username, text: String
+    let username, userAvatar, text: String
+    let likes: Int
     let timestamp: Date
 }

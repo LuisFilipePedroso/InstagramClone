@@ -5,21 +5,25 @@
       "username": "alex_photo",
       "userAvatar": "https://picsum.photos/seed/user1/100/100",
       "imageUrl": "https://picsum.photos/seed/post1/600/600",
-      "caption": "Beautiful sunset at the beach \ud83c\udf05",
+      "caption": "Beautiful sunset at the beach 🌅",
       "likes": 342,
       "timestamp": "2025-10-07T18:30:00Z",
       "comments": [
         {
           "id": "0199dfe3be56-30160a76838d8134-c0-0",
           "username": "sarah_m",
+          "userAvatar": "https://picsum.photos/seed/sarah_m/100/100",
           "text": "Stunning shot!",
-          "timestamp": "2025-10-07T19:00:00Z"
+          "timestamp": "2025-10-07T19:00:00Z",
+          "likes": 12
         },
         {
           "id": "0199dfe3be56-c1b45e90f6ba94c2-c0-1",
           "username": "mike_travel",
+          "userAvatar": "https://picsum.photos/seed/mike_travel/100/100",
           "text": "Where is this?",
-          "timestamp": "2025-10-07T19:15:00Z"
+          "timestamp": "2025-10-07T19:15:00Z",
+          "likes": 8
         }
       ],
       "reposts": 40,
@@ -30,15 +34,17 @@
       "username": "foodie_jenny",
       "userAvatar": "https://picsum.photos/seed/user2/100/100",
       "imageUrl": "https://picsum.photos/seed/post2/600/600",
-      "caption": "Best pasta in town! \ud83c\udf5d",
+      "caption": "Best pasta in town! 🍝",
       "likes": 521,
       "timestamp": "2025-10-07T12:15:00Z",
       "comments": [
         {
           "id": "0199dfe3be56-b121123edbb337c8-c1-0",
           "username": "chef_mario",
+          "userAvatar": "https://picsum.photos/seed/chef_mario/100/100",
           "text": "Looks delicious!",
-          "timestamp": "2025-10-07T13:00:00Z"
+          "timestamp": "2025-10-07T13:00:00Z",
+          "likes": 15
         }
       ],
       "reposts": 13,
@@ -49,7 +55,7 @@
       "username": "travel_chris",
       "userAvatar": "https://picsum.photos/seed/user3/100/100",
       "imageUrl": "https://picsum.photos/seed/post3/600/600",
-      "caption": "Mountain views never get old \u26f0\ufe0f",
+      "caption": "Mountain views never get old ⛰️",
       "likes": 892,
       "timestamp": "2025-10-06T08:45:00Z",
       "comments": [],
@@ -61,21 +67,25 @@
       "username": "design_emma",
       "userAvatar": "https://picsum.photos/seed/user4/100/100",
       "imageUrl": "https://picsum.photos/seed/post4/600/600",
-      "caption": "New workspace setup \ud83d\udcbb\u2728",
+      "caption": "New workspace setup 💻✨",
       "likes": 234,
       "timestamp": "2025-10-06T16:20:00Z",
       "comments": [
         {
           "id": "0199dfe3be56-4748b9a71abea922-c3-0",
           "username": "tech_david",
+          "userAvatar": "https://picsum.photos/seed/tech_david/100/100",
           "text": "Clean setup!",
-          "timestamp": "2025-10-06T17:00:00Z"
+          "timestamp": "2025-10-06T17:00:00Z",
+          "likes": 5
         },
         {
           "id": "0199dfe3be56-9acb89362e6cf892-c3-1",
           "username": "workspace_ideas",
+          "userAvatar": "https://picsum.photos/seed/workspace_ideas/100/100",
           "text": "Love the minimalist style",
-          "timestamp": "2025-10-06T18:30:00Z"
+          "timestamp": "2025-10-06T18:30:00Z",
+          "likes": 9
         }
       ],
       "reposts": 5,
@@ -86,15 +96,17 @@
       "username": "fitness_mark",
       "userAvatar": "https://picsum.photos/seed/user5/100/100",
       "imageUrl": "https://picsum.photos/seed/post5/600/600",
-      "caption": "Morning run completed! \ud83d\udcaa #fitness",
+      "caption": "Morning run completed! 💪 #fitness",
       "likes": 445,
       "timestamp": "2025-10-05T06:30:00Z",
       "comments": [
         {
           "id": "0199dfe3be56-5afa733138140c72-c4-0",
           "username": "run_club",
+          "userAvatar": "https://picsum.photos/seed/run_club/100/100",
           "text": "Great pace!",
-          "timestamp": "2025-10-05T07:00:00Z"
+          "timestamp": "2025-10-05T07:00:00Z",
+          "likes": 7
         }
       ],
       "reposts": 26,
@@ -105,15 +117,17 @@
       "username": "art_sophia",
       "userAvatar": "https://picsum.photos/seed/user6/100/100",
       "imageUrl": "https://picsum.photos/seed/post6/600/600",
-      "caption": "Latest painting finished \ud83c\udfa8",
+      "caption": "Latest painting finished 🎨",
       "likes": 678,
       "timestamp": "2025-10-05T14:00:00Z",
       "comments": [
         {
           "id": "0199dfe3be56-2ee30ce9ed2e5c4f-c5-0",
           "username": "gallery_nyc",
+          "userAvatar": "https://picsum.photos/seed/gallery_nyc/100/100",
           "text": "Beautiful work!",
-          "timestamp": "2025-10-05T15:00:00Z"
+          "timestamp": "2025-10-05T15:00:00Z",
+          "likes": 11
         }
       ],
       "reposts": 35,
@@ -124,7 +138,7 @@
       "username": "coffee_lover",
       "userAvatar": "https://picsum.photos/seed/user7/100/100",
       "imageUrl": "https://picsum.photos/seed/post7/600/600",
-      "caption": "Perfect latte art \u2615",
+      "caption": "Perfect latte art ☕",
       "likes": 312,
       "timestamp": "2025-10-04T09:00:00Z",
       "comments": [],
@@ -136,21 +150,25 @@
       "username": "pet_life",
       "userAvatar": "https://picsum.photos/seed/user8/100/100",
       "imageUrl": "https://picsum.photos/seed/post8/600/600",
-      "caption": "Meet my new puppy! \ud83d\udc15",
+      "caption": "Meet my new puppy! 🐕",
       "likes": 1243,
       "timestamp": "2025-10-04T11:30:00Z",
       "comments": [
         {
           "id": "0199dfe3be56-29feac470c0a64bc-c7-0",
           "username": "dog_lovers",
+          "userAvatar": "https://picsum.photos/seed/dog_lovers/100/100",
           "text": "So cute!",
-          "timestamp": "2025-10-04T12:00:00Z"
+          "timestamp": "2025-10-04T12:00:00Z",
+          "likes": 23
         },
         {
           "id": "0199dfe3be56-c2626d9ca30b14da-c7-1",
           "username": "pets_daily",
+          "userAvatar": "https://picsum.photos/seed/pets_daily/100/100",
           "text": "What's the name?",
-          "timestamp": "2025-10-04T12:30:00Z"
+          "timestamp": "2025-10-04T12:30:00Z",
+          "likes": 14
         }
       ],
       "reposts": 26,
@@ -161,15 +179,17 @@
       "username": "nature_tom",
       "userAvatar": "https://picsum.photos/seed/user9/100/100",
       "imageUrl": "https://picsum.photos/seed/post9/600/600",
-      "caption": "Forest therapy \ud83c\udf32\ud83c\udf3f",
+      "caption": "Forest therapy 🌲🌿",
       "likes": 567,
       "timestamp": "2025-10-03T15:45:00Z",
       "comments": [
         {
           "id": "0199dfe3be57-f5dc2299be41a073-c8-0",
           "username": "hiking_trails",
+          "userAvatar": "https://picsum.photos/seed/hiking_trails/100/100",
           "text": "Which trail is this?",
-          "timestamp": "2025-10-03T16:00:00Z"
+          "timestamp": "2025-10-03T16:00:00Z",
+          "likes": 6
         }
       ],
       "reposts": 38,
@@ -180,15 +200,17 @@
       "username": "street_photo",
       "userAvatar": "https://picsum.photos/seed/user10/100/100",
       "imageUrl": "https://picsum.photos/seed/post10/600/600",
-      "caption": "City lights at night \ud83c\udf03",
+      "caption": "City lights at night 🌃",
       "likes": 789,
       "timestamp": "2025-10-03T20:00:00Z",
       "comments": [
         {
           "id": "0199dfe3be57-db527af99953e264-c9-0",
           "username": "urban_explorer",
+          "userAvatar": "https://picsum.photos/seed/urban_explorer/100/100",
           "text": "Amazing composition!",
-          "timestamp": "2025-10-03T21:00:00Z"
+          "timestamp": "2025-10-03T21:00:00Z",
+          "likes": 10
         }
       ],
       "reposts": 26,
@@ -199,7 +221,7 @@
       "username": "yoga_lisa",
       "userAvatar": "https://picsum.photos/seed/user11/100/100",
       "imageUrl": "https://picsum.photos/seed/post11/600/600",
-      "caption": "Morning yoga session \ud83e\uddd8\u200d\u2640\ufe0f",
+      "caption": "Morning yoga session 🧘‍♀️",
       "likes": 456,
       "timestamp": "2025-10-03T07:00:00Z",
       "comments": [],
@@ -211,15 +233,17 @@
       "username": "music_dan",
       "userAvatar": "https://picsum.photos/seed/user12/100/100",
       "imageUrl": "https://picsum.photos/seed/post12/600/600",
-      "caption": "Studio session vibes \ud83c\udfb8",
+      "caption": "Studio session vibes 🎸",
       "likes": 623,
       "timestamp": "2025-10-02T22:30:00Z",
       "comments": [
         {
           "id": "0199dfe3be57-e3c131b6c652e138-c11-0",
           "username": "guitar_lessons",
+          "userAvatar": "https://picsum.photos/seed/guitar_lessons/100/100",
           "text": "Sounds amazing!",
-          "timestamp": "2025-10-02T23:00:00Z"
+          "timestamp": "2025-10-02T23:00:00Z",
+          "likes": 8
         }
       ],
       "reposts": 30,
@@ -230,21 +254,25 @@
       "username": "baker_amy",
       "userAvatar": "https://picsum.photos/seed/user13/100/100",
       "imageUrl": "https://picsum.photos/seed/post13/600/600",
-      "caption": "Fresh croissants this morning \ud83e\udd50",
+      "caption": "Fresh croissants this morning 🥐",
       "likes": 891,
       "timestamp": "2025-10-02T06:45:00Z",
       "comments": [
         {
           "id": "0199dfe3be57-b8b29394805a4385-c12-0",
           "username": "breakfast_club",
+          "userAvatar": "https://picsum.photos/seed/breakfast_club/100/100",
           "text": "These look perfect!",
-          "timestamp": "2025-10-02T07:30:00Z"
+          "timestamp": "2025-10-02T07:30:00Z",
+          "likes": 13
         },
         {
           "id": "0199dfe3be57-6d8e5ceb0e2c10a5-c12-1",
           "username": "foodie_jenny",
+          "userAvatar": "https://picsum.photos/seed/foodie_jenny/100/100",
           "text": "Recipe please!",
-          "timestamp": "2025-10-02T08:00:00Z"
+          "timestamp": "2025-10-02T08:00:00Z",
+          "likes": 19
         }
       ],
       "reposts": 7,
@@ -255,7 +283,7 @@
       "username": "book_reader",
       "userAvatar": "https://picsum.photos/seed/user14/100/100",
       "imageUrl": "https://picsum.photos/seed/post14/600/600",
-      "caption": "Cozy reading corner \ud83d\udcda",
+      "caption": "Cozy reading corner 📚",
       "likes": 334,
       "timestamp": "2025-10-01T19:00:00Z",
       "comments": [],
@@ -267,15 +295,17 @@
       "username": "adventure_sam",
       "userAvatar": "https://picsum.photos/seed/user15/100/100",
       "imageUrl": "https://picsum.photos/seed/post15/600/600",
-      "caption": "Cliff diving today! \ud83c\udf0a",
+      "caption": "Cliff diving today! 🌊",
       "likes": 1122,
       "timestamp": "2025-10-01T14:20:00Z",
       "comments": [
         {
           "id": "0199dfe3be57-1cfd5ce9fd02e37d-c14-0",
           "username": "extreme_sports",
+          "userAvatar": "https://picsum.photos/seed/extreme_sports/100/100",
           "text": "Epic jump!",
-          "timestamp": "2025-10-01T15:00:00Z"
+          "timestamp": "2025-10-01T15:00:00Z",
+          "likes": 16
         }
       ],
       "reposts": 6,
@@ -286,15 +316,17 @@
       "username": "garden_grace",
       "userAvatar": "https://picsum.photos/seed/user16/100/100",
       "imageUrl": "https://picsum.photos/seed/post16/600/600",
-      "caption": "My roses are blooming \ud83c\udf39",
+      "caption": "My roses are blooming 🌹",
       "likes": 445,
       "timestamp": "2025-09-30T10:15:00Z",
       "comments": [
         {
           "id": "0199dfe3be57-ef203caafd555519-c15-0",
           "username": "plant_tips",
+          "userAvatar": "https://picsum.photos/seed/plant_tips/100/100",
           "text": "Beautiful colors!",
-          "timestamp": "2025-09-30T11:00:00Z"
+          "timestamp": "2025-09-30T11:00:00Z",
+          "likes": 7
         }
       ],
       "reposts": 14,
@@ -305,7 +337,7 @@
       "username": "tech_brian",
       "userAvatar": "https://picsum.photos/seed/user17/100/100",
       "imageUrl": "https://picsum.photos/seed/post17/600/600",
-      "caption": "New MacBook setup complete \ud83d\udcbb",
+      "caption": "New MacBook setup complete 💻",
       "likes": 778,
       "timestamp": "2025-09-30T16:45:00Z",
       "comments": [],
@@ -317,21 +349,25 @@
       "username": "fashion_kate",
       "userAvatar": "https://picsum.photos/seed/user18/100/100",
       "imageUrl": "https://picsum.photos/seed/post18/600/600",
-      "caption": "Fall fashion lookbook \ud83c\udf42",
+      "caption": "Fall fashion lookbook 🍂",
       "likes": 1567,
       "timestamp": "2025-09-29T13:00:00Z",
       "comments": [
         {
           "id": "0199dfe3be57-a8396c8cf4690e44-c17-0",
           "username": "style_daily",
+          "userAvatar": "https://picsum.photos/seed/style_daily/100/100",
           "text": "Love this outfit!",
-          "timestamp": "2025-09-29T14:00:00Z"
+          "timestamp": "2025-09-29T14:00:00Z",
+          "likes": 21
         },
         {
           "id": "0199dfe3be57-302307fd5ee2bf68-c17-1",
           "username": "fashion_trends",
+          "userAvatar": "https://picsum.photos/seed/fashion_trends/100/100",
           "text": "Where's the jacket from?",
-          "timestamp": "2025-09-29T15:00:00Z"
+          "timestamp": "2025-09-29T15:00:00Z",
+          "likes": 17
         }
       ],
       "reposts": 11,
@@ -342,15 +378,17 @@
       "username": "skate_mike",
       "userAvatar": "https://picsum.photos/seed/user19/100/100",
       "imageUrl": "https://picsum.photos/seed/post19/600/600",
-      "caption": "Landed my first kickflip! \ud83d\udef9",
+      "caption": "Landed my first kickflip! 🛹",
       "likes": 923,
       "timestamp": "2025-09-29T17:30:00Z",
       "comments": [
         {
           "id": "0199dfe3be57-65228a7f5d5d46b4-c18-0",
           "username": "skate_crew",
+          "userAvatar": "https://picsum.photos/seed/skate_crew/100/100",
           "text": "Clean landing!",
-          "timestamp": "2025-09-29T18:00:00Z"
+          "timestamp": "2025-09-29T18:00:00Z",
+          "likes": 14
         }
       ],
       "reposts": 18,
@@ -361,21 +399,25 @@
       "username": "ocean_diver",
       "userAvatar": "https://picsum.photos/seed/user20/100/100",
       "imageUrl": "https://picsum.photos/seed/post20/600/600",
-      "caption": "Underwater paradise \ud83d\udc20",
+      "caption": "Underwater paradise 🐠",
       "likes": 2341,
       "timestamp": "2025-09-28T11:00:00Z",
       "comments": [
         {
           "id": "0199dfe3be57-85f37da66c6a535f-c19-0",
           "username": "dive_life",
+          "userAvatar": "https://picsum.photos/seed/dive_life/100/100",
           "text": "Amazing visibility!",
-          "timestamp": "2025-09-28T12:00:00Z"
+          "timestamp": "2025-09-28T12:00:00Z",
+          "likes": 28
         },
         {
           "id": "0199dfe3be57-1f94fa9b09043f1f-c19-1",
           "username": "marine_bio",
+          "userAvatar": "https://picsum.photos/seed/marine_bio/100/100",
           "text": "What species did you see?",
-          "timestamp": "2025-09-28T13:00:00Z"
+          "timestamp": "2025-09-28T13:00:00Z",
+          "likes": 32
         }
       ],
       "reposts": 4,
@@ -386,7 +428,7 @@
       "username": "chef_ricardo",
       "userAvatar": "https://picsum.photos/seed/user21/100/100",
       "imageUrl": "https://picsum.photos/seed/post21/600/600",
-      "caption": "Tonight's special: Grilled salmon \ud83c\udf7d\ufe0f",
+      "caption": "Tonight's special: Grilled salmon 🍽️",
       "likes": 687,
       "timestamp": "2025-09-28T19:00:00Z",
       "comments": [],
@@ -398,15 +440,17 @@
       "username": "dance_maria",
       "userAvatar": "https://picsum.photos/seed/user22/100/100",
       "imageUrl": "https://picsum.photos/seed/post22/600/600",
-      "caption": "Ballet practice never stops \ud83e\ude70",
+      "caption": "Ballet practice never stops 🩰",
       "likes": 534,
       "timestamp": "2025-09-27T15:30:00Z",
       "comments": [
         {
           "id": "0199dfe3be57-4c67bb39b93d3da1-c21-0",
           "username": "ballet_world",
+          "userAvatar": "https://picsum.photos/seed/ballet_world/100/100",
           "text": "Beautiful form!",
-          "timestamp": "2025-09-27T16:00:00Z"
+          "timestamp": "2025-09-27T16:00:00Z",
+          "likes": 9
         }
       ],
       "reposts": 22,
@@ -417,15 +461,17 @@
       "username": "wildlife_joe",
       "userAvatar": "https://picsum.photos/seed/user23/100/100",
       "imageUrl": "https://picsum.photos/seed/post23/600/600",
-      "caption": "Spotted a rare bird today \ud83e\udd9c",
+      "caption": "Spotted a rare bird today 🦜",
       "likes": 1890,
       "timestamp": "2025-09-27T08:20:00Z",
       "comments": [
         {
           "id": "0199dfe3be57-70f8aa126b986843-c22-0",
           "username": "bird_watchers",
+          "userAvatar": "https://picsum.photos/seed/bird_watchers/100/100",
           "text": "Great shot!",
-          "timestamp": "2025-09-27T09:00:00Z"
+          "timestamp": "2025-09-27T09:00:00Z",
+          "likes": 25
         }
       ],
       "reposts": 42,
@@ -436,7 +482,7 @@
       "username": "pottery_lynn",
       "userAvatar": "https://picsum.photos/seed/user24/100/100",
       "imageUrl": "https://picsum.photos/seed/post24/600/600",
-      "caption": "New ceramic collection \ud83c\udffa",
+      "caption": "New ceramic collection 🏺",
       "likes": 456,
       "timestamp": "2025-09-26T14:00:00Z",
       "comments": [],
@@ -448,21 +494,25 @@
       "username": "surf_jake",
       "userAvatar": "https://picsum.photos/seed/user25/100/100",
       "imageUrl": "https://picsum.photos/seed/post25/600/600",
-      "caption": "Perfect waves this morning \ud83c\udfc4\u200d\u2642\ufe0f",
+      "caption": "Perfect waves this morning 🏄‍♂️",
       "likes": 1234,
       "timestamp": "2025-09-26T06:30:00Z",
       "comments": [
         {
           "id": "0199dfe3be57-3eff53d8653c0b76-c24-0",
           "username": "surf_report",
+          "userAvatar": "https://picsum.photos/seed/surf_report/100/100",
           "text": "Conditions look perfect!",
-          "timestamp": "2025-09-26T07:00:00Z"
+          "timestamp": "2025-09-26T07:00:00Z",
+          "likes": 18
         },
         {
           "id": "0199dfe3be57-6d563bbe139a8c8f-c24-1",
           "username": "beach_life",
+          "userAvatar": "https://picsum.photos/seed/beach_life/100/100",
           "text": "Jealous!",
-          "timestamp": "2025-09-26T08:00:00Z"
+          "timestamp": "2025-09-26T08:00:00Z",
+          "likes": 22
         }
       ],
       "reposts": 3,
@@ -473,15 +523,17 @@
       "username": "astro_sarah",
       "userAvatar": "https://picsum.photos/seed/user26/100/100",
       "imageUrl": "https://picsum.photos/seed/post26/600/600",
-      "caption": "Milky Way captured last night \u2728",
+      "caption": "Milky Way captured last night ✨",
       "likes": 3456,
       "timestamp": "2025-09-25T23:45:00Z",
       "comments": [
         {
           "id": "0199dfe3be57-d8b58cfae4dcf315-c25-0",
           "username": "space_lovers",
+          "userAvatar": "https://picsum.photos/seed/space_lovers/100/100",
           "text": "Incredible!",
-          "timestamp": "2025-09-26T00:30:00Z"
+          "timestamp": "2025-09-26T00:30:00Z",
+          "likes": 45
         }
       ],
       "reposts": 37,
@@ -492,7 +544,7 @@
       "username": "cycling_tom",
       "userAvatar": "https://picsum.photos/seed/user27/100/100",
       "imageUrl": "https://picsum.photos/seed/post27/600/600",
-      "caption": "50km ride completed! \ud83d\udeb4\u200d\u2642\ufe0f",
+      "caption": "50km ride completed! 🚴‍♂️",
       "likes": 567,
       "timestamp": "2025-09-25T17:00:00Z",
       "comments": [],
@@ -504,15 +556,17 @@
       "username": "architecture_anna",
       "userAvatar": "https://picsum.photos/seed/user28/100/100",
       "imageUrl": "https://picsum.photos/seed/post28/600/600",
-      "caption": "Modern design inspiration \ud83c\udfe2",
+      "caption": "Modern design inspiration 🏢",
       "likes": 890,
       "timestamp": "2025-09-25T12:30:00Z",
       "comments": [
         {
           "id": "0199dfe3be57-46c77f7950d2ed03-c27-0",
           "username": "design_daily",
+          "userAvatar": "https://picsum.photos/seed/design_daily/100/100",
           "text": "Love the lines!",
-          "timestamp": "2025-09-25T13:00:00Z"
+          "timestamp": "2025-09-25T13:00:00Z",
+          "likes": 11
         }
       ],
       "reposts": 17,
@@ -523,15 +577,17 @@
       "username": "cocktail_kevin",
       "userAvatar": "https://picsum.photos/seed/user29/100/100",
       "imageUrl": "https://picsum.photos/seed/post29/600/600",
-      "caption": "Signature mojito recipe \ud83c\udf79",
+      "caption": "Signature mojito recipe 🍹",
       "likes": 723,
       "timestamp": "2025-09-24T20:00:00Z",
       "comments": [
         {
           "id": "0199dfe3be57-6789179db4a59911-c28-0",
           "username": "bar_life",
+          "userAvatar": "https://picsum.photos/seed/bar_life/100/100",
           "text": "Perfect balance!",
-          "timestamp": "2025-09-24T21:00:00Z"
+          "timestamp": "2025-09-24T21:00:00Z",
+          "likes": 10
         }
       ],
       "reposts": 49,
@@ -542,7 +598,7 @@
       "username": "vintage_rachel",
       "userAvatar": "https://picsum.photos/seed/user30/100/100",
       "imageUrl": "https://picsum.photos/seed/post30/600/600",
-      "caption": "Thrift store finds \ud83d\udc57",
+      "caption": "Thrift store finds 👗",
       "likes": 945,
       "timestamp": "2025-09-24T15:20:00Z",
       "comments": [],
@@ -554,15 +610,17 @@
       "username": "climbing_alex",
       "userAvatar": "https://picsum.photos/seed/user31/100/100",
       "imageUrl": "https://picsum.photos/seed/post31/600/600",
-      "caption": "Conquered this route today! \ud83e\uddd7",
+      "caption": "Conquered this route today! 🧗",
       "likes": 1456,
       "timestamp": "2025-09-23T16:45:00Z",
       "comments": [
         {
           "id": "0199dfe3be57-0870eeef04f35e5c-c30-0",
           "username": "climb_crew",
+          "userAvatar": "https://picsum.photos/seed/climb_crew/100/100",
           "text": "That's a tough one!",
-          "timestamp": "2025-09-23T17:30:00Z"
+          "timestamp": "2025-09-23T17:30:00Z",
+          "likes": 19
         }
       ],
       "reposts": 5,
@@ -573,15 +631,17 @@
       "username": "vegan_meals",
       "userAvatar": "https://picsum.photos/seed/user32/100/100",
       "imageUrl": "https://picsum.photos/seed/post32/600/600",
-      "caption": "Plant-based Buddha bowl \ud83e\udd57",
+      "caption": "Plant-based Buddha bowl 🥗",
       "likes": 812,
       "timestamp": "2025-09-23T12:00:00Z",
       "comments": [
         {
           "id": "0199dfe3be57-49e6768a6d63f293-c31-0",
           "username": "healthy_eats",
+          "userAvatar": "https://picsum.photos/seed/healthy_eats/100/100",
           "text": "Recipe?",
-          "timestamp": "2025-09-23T13:00:00Z"
+          "timestamp": "2025-09-23T13:00:00Z",
+          "likes": 12
         }
       ],
       "reposts": 48,
@@ -592,7 +652,7 @@
       "username": "drone_pilot",
       "userAvatar": "https://picsum.photos/seed/user33/100/100",
       "imageUrl": "https://picsum.photos/seed/post33/600/600",
-      "caption": "Aerial view of the city \ud83d\ude81",
+      "caption": "Aerial view of the city 🚁",
       "likes": 2134,
       "timestamp": "2025-09-22T18:30:00Z",
       "comments": [],
@@ -604,15 +664,17 @@
       "username": "painting_studio",
       "userAvatar": "https://picsum.photos/seed/user34/100/100",
       "imageUrl": "https://picsum.photos/seed/post34/600/600",
-      "caption": "Abstract series continues \ud83c\udfa8",
+      "caption": "Abstract series continues 🎨",
       "likes": 678,
       "timestamp": "2025-09-22T10:15:00Z",
       "comments": [
         {
           "id": "0199dfe3be57-69e60d323c5bad87-c33-0",
           "username": "art_gallery",
+          "userAvatar": "https://picsum.photos/seed/art_gallery/100/100",
           "text": "Stunning piece!",
-          "timestamp": "2025-09-22T11:00:00Z"
+          "timestamp": "2025-09-22T11:00:00Z",
+          "likes": 8
         }
       ],
       "reposts": 2,
@@ -623,15 +685,17 @@
       "username": "gaming_leo",
       "userAvatar": "https://picsum.photos/seed/user35/100/100",
       "imageUrl": "https://picsum.photos/seed/post35/600/600",
-      "caption": "New gaming setup complete! \ud83c\udfae",
+      "caption": "New gaming setup complete! 🎮",
       "likes": 1890,
       "timestamp": "2025-09-21T21:00:00Z",
       "comments": [
         {
           "id": "0199dfe3be57-8caca2c637e601c9-c34-0",
           "username": "pc_builds",
+          "userAvatar": "https://picsum.photos/seed/pc_builds/100/100",
           "text": "What specs?",
-          "timestamp": "2025-09-21T22:00:00Z"
+          "timestamp": "2025-09-21T22:00:00Z",
+          "likes": 24
         }
       ],
       "reposts": 48,
@@ -642,7 +706,7 @@
       "username": "home_decor",
       "userAvatar": "https://picsum.photos/seed/user36/100/100",
       "imageUrl": "https://picsum.photos/seed/post36/600/600",
-      "caption": "Living room makeover \ud83d\udecb\ufe0f",
+      "caption": "Living room makeover 🛋️",
       "likes": 1234,
       "timestamp": "2025-09-21T14:30:00Z",
       "comments": [],
@@ -654,15 +718,17 @@
       "username": "morning_coffee",
       "userAvatar": "https://picsum.photos/seed/user37/100/100",
       "imageUrl": "https://picsum.photos/seed/post37/600/600",
-      "caption": "Sunday morning ritual \u2615",
+      "caption": "Sunday morning ritual ☕",
       "likes": 456,
       "timestamp": "2025-09-21T08:00:00Z",
       "comments": [
         {
           "id": "0199dfe3be57-234a48d338350f40-c36-0",
           "username": "cafe_culture",
+          "userAvatar": "https://picsum.photos/seed/cafe_culture/100/100",
           "text": "Perfect pour over!",
-          "timestamp": "2025-09-21T09:00:00Z"
+          "timestamp": "2025-09-21T09:00:00Z",
+          "likes": 6
         }
       ],
       "reposts": 7,
@@ -673,15 +739,17 @@
       "username": "marathon_runner",
       "userAvatar": "https://picsum.photos/seed/user38/100/100",
       "imageUrl": "https://picsum.photos/seed/post38/600/600",
-      "caption": "Marathon training week 8 \ud83c\udfc3",
+      "caption": "Marathon training week 8 🏃",
       "likes": 789,
       "timestamp": "2025-09-20T06:00:00Z",
       "comments": [
         {
           "id": "0199dfe3be57-23a3e944dae46e94-c37-0",
           "username": "running_coach",
+          "userAvatar": "https://picsum.photos/seed/running_coach/100/100",
           "text": "Keep it up!",
-          "timestamp": "2025-09-20T07:00:00Z"
+          "timestamp": "2025-09-20T07:00:00Z",
+          "likes": 11
         }
       ],
       "reposts": 44,
@@ -692,7 +760,7 @@
       "username": "street_art",
       "userAvatar": "https://picsum.photos/seed/user39/100/100",
       "imageUrl": "https://picsum.photos/seed/post39/600/600",
-      "caption": "Found this amazing mural \ud83c\udfa8",
+      "caption": "Found this amazing mural 🎨",
       "likes": 1567,
       "timestamp": "2025-09-20T16:20:00Z",
       "comments": [],
@@ -704,15 +772,17 @@
       "username": "meditation_zen",
       "userAvatar": "https://picsum.photos/seed/user40/100/100",
       "imageUrl": "https://picsum.photos/seed/post40/600/600",
-      "caption": "Peace and mindfulness \ud83e\uddd8",
+      "caption": "Peace and mindfulness 🧘",
       "likes": 923,
       "timestamp": "2025-09-19T07:30:00Z",
       "comments": [
         {
           "id": "0199dfe3be57-b77ee6175f8509d5-c39-0",
           "username": "wellness_tips",
+          "userAvatar": "https://picsum.photos/seed/wellness_tips/100/100",
           "text": "Beautiful space!",
-          "timestamp": "2025-09-19T08:00:00Z"
+          "timestamp": "2025-09-19T08:00:00Z",
+          "likes": 13
         }
       ],
       "reposts": 48,
@@ -723,15 +793,17 @@
       "username": "car_enthusiast",
       "userAvatar": "https://picsum.photos/seed/user41/100/100",
       "imageUrl": "https://picsum.photos/seed/post41/600/600",
-      "caption": "Classic car show today \ud83d\ude97",
+      "caption": "Classic car show today 🚗",
       "likes": 2456,
       "timestamp": "2025-09-19T13:00:00Z",
       "comments": [
         {
           "id": "0199dfe3be57-d958a0dacd697f30-c40-0",
           "username": "vintage_cars",
+          "userAvatar": "https://picsum.photos/seed/vintage_cars/100/100",
           "text": "Dream car!",
-          "timestamp": "2025-09-19T14:00:00Z"
+          "timestamp": "2025-09-19T14:00:00Z",
+          "likes": 31
         }
       ],
       "reposts": 42,
@@ -742,7 +814,7 @@
       "username": "flowers_bloom",
       "userAvatar": "https://picsum.photos/seed/user42/100/100",
       "imageUrl": "https://picsum.photos/seed/post42/600/600",
-      "caption": "Spring is coming \ud83c\udf38",
+      "caption": "Spring is coming 🌸",
       "likes": 1123,
       "timestamp": "2025-09-18T10:45:00Z",
       "comments": [],
@@ -754,15 +826,17 @@
       "username": "macro_lens",
       "userAvatar": "https://picsum.photos/seed/user43/100/100",
       "imageUrl": "https://picsum.photos/seed/post43/600/600",
-      "caption": "Macro photography magic \ud83d\udcf8",
+      "caption": "Macro photography magic 📸",
       "likes": 1678,
       "timestamp": "2025-09-18T15:30:00Z",
       "comments": [
         {
           "id": "0199dfe3be57-d4b9881d020bb62e-c42-0",
           "username": "photo_gear",
+          "userAvatar": "https://picsum.photos/seed/photo_gear/100/100",
           "text": "What lens?",
-          "timestamp": "2025-09-18T16:00:00Z"
+          "timestamp": "2025-09-18T16:00:00Z",
+          "likes": 20
         }
       ],
       "reposts": 27,
@@ -773,15 +847,17 @@
       "username": "backpacking_life",
       "userAvatar": "https://picsum.photos/seed/user44/100/100",
       "imageUrl": "https://picsum.photos/seed/post44/600/600",
-      "caption": "Off the grid for a week \ud83c\udf92",
+      "caption": "Off the grid for a week 🏕",
       "likes": 2890,
       "timestamp": "2025-09-17T09:00:00Z",
       "comments": [
         {
           "id": "0199dfe3be57-2a7abd3355cf49b5-c43-0",
           "username": "outdoor_gear",
+          "userAvatar": "https://picsum.photos/seed/outdoor_gear/100/100",
           "text": "Stay safe!",
-          "timestamp": "2025-09-17T10:00:00Z"
+          "timestamp": "2025-09-17T10:00:00Z",
+          "likes": 35
         }
       ],
       "reposts": 38,
@@ -792,15 +868,17 @@
       "username": "dessert_queen",
       "userAvatar": "https://picsum.photos/seed/user45/100/100",
       "imageUrl": "https://picsum.photos/seed/post45/600/600",
-      "caption": "Homemade cheesecake \ud83c\udf70",
+      "caption": "Homemade cheesecake 🍰",
       "likes": 1456,
       "timestamp": "2025-09-17T19:00:00Z",
       "comments": [
         {
           "id": "0199dfe3be57-6bc4e3b744d28301-c44-0",
           "username": "sweet_tooth",
+          "userAvatar": "https://picsum.photos/seed/sweet_tooth/100/100",
           "text": "Looks amazing!",
-          "timestamp": "2025-09-17T20:00:00Z"
+          "timestamp": "2025-09-17T20:00:00Z",
+          "likes": 18
         }
       ],
       "reposts": 19,
@@ -811,7 +889,7 @@
       "username": "minimalist_home",
       "userAvatar": "https://picsum.photos/seed/user46/100/100",
       "imageUrl": "https://picsum.photos/seed/post46/600/600",
-      "caption": "Less is more \u2728",
+      "caption": "Less is more ✨",
       "likes": 890,
       "timestamp": "2025-09-16T11:30:00Z",
       "comments": [],
@@ -823,15 +901,17 @@
       "username": "film_buff",
       "userAvatar": "https://picsum.photos/seed/user47/100/100",
       "imageUrl": "https://picsum.photos/seed/post47/600/600",
-      "caption": "Movie night essentials \ud83c\udfac",
+      "caption": "Movie night essentials 🎬",
       "likes": 567,
       "timestamp": "2025-09-16T20:00:00Z",
       "comments": [
         {
           "id": "0199dfe3be57-426b1cdf17de2d7f-c46-0",
           "username": "cinema_club",
+          "userAvatar": "https://picsum.photos/seed/cinema_club/100/100",
           "text": "What are you watching?",
-          "timestamp": "2025-09-16T21:00:00Z"
+          "timestamp": "2025-09-16T21:00:00Z",
+          "likes": 8
         }
       ],
       "reposts": 1,
@@ -842,15 +922,17 @@
       "username": "snowboard_sam",
       "userAvatar": "https://picsum.photos/seed/user48/100/100",
       "imageUrl": "https://picsum.photos/seed/post48/600/600",
-      "caption": "First powder day! \u2744\ufe0f",
+      "caption": "First powder day! ❄️",
       "likes": 1890,
       "timestamp": "2025-09-15T08:30:00Z",
       "comments": [
         {
           "id": "0199dfe3be57-cbdaf5295d5306a1-c47-0",
           "username": "mountain_life",
+          "userAvatar": "https://picsum.photos/seed/mountain_life/100/100",
           "text": "Epic conditions!",
-          "timestamp": "2025-09-15T09:00:00Z"
+          "timestamp": "2025-09-15T09:00:00Z",
+          "likes": 23
         }
       ],
       "reposts": 38,
@@ -861,7 +943,7 @@
       "username": "calligraphy_art",
       "userAvatar": "https://picsum.photos/seed/user49/100/100",
       "imageUrl": "https://picsum.photos/seed/post49/600/600",
-      "caption": "Hand lettering practice \u270d\ufe0f",
+      "caption": "Hand lettering practice ✍️",
       "likes": 723,
       "timestamp": "2025-09-15T14:00:00Z",
       "comments": [],
@@ -873,15 +955,17 @@
       "username": "city_skyline",
       "userAvatar": "https://picsum.photos/seed/user50/100/100",
       "imageUrl": "https://picsum.photos/seed/post50/600/600",
-      "caption": "Golden hour magic \ud83c\udf06",
+      "caption": "Golden hour magic 🌆",
       "likes": 3456,
       "timestamp": "2025-09-14T18:45:00Z",
       "comments": [
         {
           "id": "0199dfe3be57-3f83f1379e2d103a-c49-0",
           "username": "urban_photos",
+          "userAvatar": "https://picsum.photos/seed/urban_photos/100/100",
           "text": "Perfect timing!",
-          "timestamp": "2025-09-14T19:30:00Z"
+          "timestamp": "2025-09-14T19:30:00Z",
+          "likes": 42
         }
       ],
       "reposts": 45,
@@ -892,15 +976,17 @@
       "username": "aquarium_life",
       "userAvatar": "https://picsum.photos/seed/user51/100/100",
       "imageUrl": "https://picsum.photos/seed/post51/600/600",
-      "caption": "New tank setup complete \ud83d\udc1f",
+      "caption": "New tank setup complete 🐟",
       "likes": 567,
       "timestamp": "2025-09-14T12:00:00Z",
       "comments": [
         {
           "id": "0199dfe3be57-7cdc78dbebec7817-c50-0",
           "username": "fish_keeper",
+          "userAvatar": "https://picsum.photos/seed/fish_keeper/100/100",
           "text": "Beautiful aquascape!",
-          "timestamp": "2025-09-14T13:00:00Z"
+          "timestamp": "2025-09-14T13:00:00Z",
+          "likes": 9
         }
       ],
       "reposts": 45,
@@ -911,7 +997,7 @@
       "username": "woodworking_pro",
       "userAvatar": "https://picsum.photos/seed/user52/100/100",
       "imageUrl": "https://picsum.photos/seed/post52/600/600",
-      "caption": "Custom dining table finished \ud83e\udeb5",
+      "caption": "Custom dining table finished 🪵",
       "likes": 1234,
       "timestamp": "2025-09-13T16:30:00Z",
       "comments": [],
@@ -923,15 +1009,17 @@
       "username": "tea_ceremony",
       "userAvatar": "https://picsum.photos/seed/user53/100/100",
       "imageUrl": "https://picsum.photos/seed/post53/600/600",
-      "caption": "Afternoon tea ritual \ud83c\udf75",
+      "caption": "Afternoon tea ritual 🍵",
       "likes": 445,
       "timestamp": "2025-09-13T15:00:00Z",
       "comments": [
         {
           "id": "0199dfe3be57-06e19a0f9b1b7fa8-c52-0",
           "username": "tea_lovers",
+          "userAvatar": "https://picsum.photos/seed/tea_lovers/100/100",
           "text": "What blend?",
-          "timestamp": "2025-09-13T16:00:00Z"
+          "timestamp": "2025-09-13T16:00:00Z",
+          "likes": 7
         }
       ],
       "reposts": 7,
@@ -942,15 +1030,17 @@
       "username": "skateboard_tricks",
       "userAvatar": "https://picsum.photos/seed/user54/100/100",
       "imageUrl": "https://picsum.photos/seed/post54/600/600",
-      "caption": "New trick learned! \ud83d\udef9",
+      "caption": "New trick learned! 🛹",
       "likes": 890,
       "timestamp": "2025-09-12T17:45:00Z",
       "comments": [
         {
           "id": "0199dfe3be57-23629877f0f54470-c53-0",
           "username": "skate_park",
+          "userAvatar": "https://picsum.photos/seed/skate_park/100/100",
           "text": "Smooth!",
-          "timestamp": "2025-09-12T18:30:00Z"
+          "timestamp": "2025-09-12T18:30:00Z",
+          "likes": 12
         }
       ],
       "reposts": 4,
@@ -961,7 +1051,7 @@
       "username": "mountain_hiking",
       "userAvatar": "https://picsum.photos/seed/user55/100/100",
       "imageUrl": "https://picsum.photos/seed/post55/600/600",
-      "caption": "Summit reached! \u26f0\ufe0f",
+      "caption": "Summit reached! ⛰️",
       "likes": 2567,
       "timestamp": "2025-09-12T11:00:00Z",
       "comments": [],
@@ -973,15 +1063,17 @@
       "username": "jazz_nights",
       "userAvatar": "https://picsum.photos/seed/user56/100/100",
       "imageUrl": "https://picsum.photos/seed/post56/600/600",
-      "caption": "Live jazz performance \ud83c\udfb7",
+      "caption": "Live jazz performance 🎷",
       "likes": 1123,
       "timestamp": "2025-09-11T22:00:00Z",
       "comments": [
         {
           "id": "0199dfe3be57-c2337a7cc536c4b0-c55-0",
           "username": "music_venue",
+          "userAvatar": "https://picsum.photos/seed/music_venue/100/100",
           "text": "Great show!",
-          "timestamp": "2025-09-11T23:00:00Z"
+          "timestamp": "2025-09-11T23:00:00Z",
+          "likes": 15
         }
       ],
       "reposts": 35,
@@ -992,15 +1084,17 @@
       "username": "landscape_views",
       "userAvatar": "https://picsum.photos/seed/user57/100/100",
       "imageUrl": "https://picsum.photos/seed/post57/600/600",
-      "caption": "Nature's masterpiece \ud83c\udfde\ufe0f",
+      "caption": "Nature's masterpiece 🏞️",
       "likes": 1890,
       "timestamp": "2025-09-11T14:30:00Z",
       "comments": [
         {
           "id": "0199dfe3be57-7e9f3cfe20796b11-c56-0",
           "username": "nature_lovers",
+          "userAvatar": "https://picsum.photos/seed/nature_lovers/100/100",
           "text": "Breathtaking!",
-          "timestamp": "2025-09-11T15:00:00Z"
+          "timestamp": "2025-09-11T15:00:00Z",
+          "likes": 24
         }
       ],
       "reposts": 19,
@@ -1011,7 +1105,7 @@
       "username": "cocktail_master",
       "userAvatar": "https://picsum.photos/seed/user58/100/100",
       "imageUrl": "https://picsum.photos/seed/post58/600/600",
-      "caption": "Craft cocktail creation \ud83c\udf78",
+      "caption": "Craft cocktail creation 🍸",
       "likes": 678,
       "timestamp": "2025-09-10T19:00:00Z",
       "comments": [],
@@ -1023,15 +1117,17 @@
       "username": "urban_gardening",
       "userAvatar": "https://picsum.photos/seed/user59/100/100",
       "imageUrl": "https://picsum.photos/seed/post59/600/600",
-      "caption": "Balcony garden thriving \ud83c\udf3f",
+      "caption": "Balcony garden thriving 🌿",
       "likes": 945,
       "timestamp": "2025-09-10T10:15:00Z",
       "comments": [
         {
           "id": "0199dfe3be57-d5d3ca914230f5b4-c58-0",
           "username": "green_thumb",
+          "userAvatar": "https://picsum.photos/seed/green_thumb/100/100",
           "text": "Tips please!",
-          "timestamp": "2025-09-10T11:00:00Z"
+          "timestamp": "2025-09-10T11:00:00Z",
+          "likes": 13
         }
       ],
       "reposts": 27,
@@ -1042,15 +1138,17 @@
       "username": "abstract_painter",
       "userAvatar": "https://picsum.photos/seed/user60/100/100",
       "imageUrl": "https://picsum.photos/seed/post60/600/600",
-      "caption": "New canvas completed \ud83c\udfa8",
+      "caption": "New canvas completed 🎨",
       "likes": 1234,
       "timestamp": "2025-09-09T16:00:00Z",
       "comments": [
         {
           "id": "0199dfe3be57-aa69a6d6c3fe8f36-c59-0",
           "username": "art_studio",
+          "userAvatar": "https://picsum.photos/seed/art_studio/100/100",
           "text": "Bold colors!",
-          "timestamp": "2025-09-09T17:00:00Z"
+          "timestamp": "2025-09-09T17:00:00Z",
+          "likes": 16
         }
       ],
       "reposts": 14,
@@ -1061,7 +1159,7 @@
       "username": "motorcycle_rider",
       "userAvatar": "https://picsum.photos/seed/user61/100/100",
       "imageUrl": "https://picsum.photos/seed/post61/600/600",
-      "caption": "Weekend ride through the canyon \ud83c\udfcd\ufe0f",
+      "caption": "Weekend ride through the canyon 🏍️",
       "likes": 1567,
       "timestamp": "2025-09-09T08:30:00Z",
       "comments": [],
@@ -1073,15 +1171,17 @@
       "username": "sushi_chef",
       "userAvatar": "https://picsum.photos/seed/user62/100/100",
       "imageUrl": "https://picsum.photos/seed/post62/600/600",
-      "caption": "Fresh sushi platter \ud83c\udf63",
+      "caption": "Fresh sushi platter 🍣",
       "likes": 2134,
       "timestamp": "2025-09-08T18:00:00Z",
       "comments": [
         {
           "id": "0199dfe3be57-f2f3f8816f215507-c61-0",
           "username": "food_critic",
+          "userAvatar": "https://picsum.photos/seed/food_critic/100/100",
           "text": "Presentation is perfect!",
-          "timestamp": "2025-09-08T19:00:00Z"
+          "timestamp": "2025-09-08T19:00:00Z",
+          "likes": 27
         }
       ],
       "reposts": 39,
@@ -1092,15 +1192,17 @@
       "username": "vinyl_collector",
       "userAvatar": "https://picsum.photos/seed/user63/100/100",
       "imageUrl": "https://picsum.photos/seed/post63/600/600",
-      "caption": "Latest record finds \ud83c\udfb5",
+      "caption": "Latest record finds 🎵",
       "likes": 723,
       "timestamp": "2025-09-08T14:20:00Z",
       "comments": [
         {
           "id": "0199dfe3be57-9af4703fb072bda5-c62-0",
           "username": "music_collector",
+          "userAvatar": "https://picsum.photos/seed/music_collector/100/100",
           "text": "Great collection!",
-          "timestamp": "2025-09-08T15:00:00Z"
+          "timestamp": "2025-09-08T15:00:00Z",
+          "likes": 10
         }
       ],
       "reposts": 34,
@@ -1111,7 +1213,7 @@
       "username": "kayak_adventures",
       "userAvatar": "https://picsum.photos/seed/user64/100/100",
       "imageUrl": "https://picsum.photos/seed/post64/600/600",
-      "caption": "Peaceful morning paddle \ud83d\udef6",
+      "caption": "Peaceful morning paddle 🛶",
       "likes": 1456,
       "timestamp": "2025-09-07T07:00:00Z",
       "comments": [],
@@ -1123,15 +1225,17 @@
       "username": "graphic_design",
       "userAvatar": "https://picsum.photos/seed/user65/100/100",
       "imageUrl": "https://picsum.photos/seed/post65/600/600",
-      "caption": "Logo design process \ud83d\udca1",
+      "caption": "Logo design process 💡",
       "likes": 890,
       "timestamp": "2025-09-07T13:45:00Z",
       "comments": [
         {
           "id": "0199dfe3be57-1cb5ef6187359a0e-c64-0",
           "username": "design_studio",
+          "userAvatar": "https://picsum.photos/seed/design_studio/100/100",
           "text": "Clean design!",
-          "timestamp": "2025-09-07T14:30:00Z"
+          "timestamp": "2025-09-07T14:30:00Z",
+          "likes": 12
         }
       ],
       "reposts": 12,
@@ -1142,15 +1246,17 @@
       "username": "sunrise_chaser",
       "userAvatar": "https://picsum.photos/seed/user66/100/100",
       "imageUrl": "https://picsum.photos/seed/post66/600/600",
-      "caption": "Another beautiful sunrise \ud83c\udf05",
+      "caption": "Another beautiful sunrise 🌅",
       "likes": 2890,
       "timestamp": "2025-09-06T06:15:00Z",
       "comments": [
         {
           "id": "0199dfe3be57-fb469cf796e33cf1-c65-0",
           "username": "early_birds",
+          "userAvatar": "https://picsum.photos/seed/early_birds/100/100",
           "text": "Worth waking up for!",
-          "timestamp": "2025-09-06T07:00:00Z"
+          "timestamp": "2025-09-06T07:00:00Z",
+          "likes": 36
         }
       ],
       "reposts": 43,
@@ -1161,7 +1267,7 @@
       "username": "camping_gear",
       "userAvatar": "https://picsum.photos/seed/user67/100/100",
       "imageUrl": "https://picsum.photos/seed/post67/600/600",
-      "caption": "Campsite setup complete \u26fa",
+      "caption": "Campsite setup complete ⛺",
       "likes": 1234,
       "timestamp": "2025-09-06T17:30:00Z",
       "comments": [],
@@ -1173,15 +1279,17 @@
       "username": "pasta_homemade",
       "userAvatar": "https://picsum.photos/seed/user68/100/100",
       "imageUrl": "https://picsum.photos/seed/post68/600/600",
-      "caption": "Fresh pasta from scratch \ud83c\udf5d",
+      "caption": "Fresh pasta from scratch 🍝",
       "likes": 1678,
       "timestamp": "2025-09-05T18:00:00Z",
       "comments": [
         {
           "id": "0199dfe3be57-7a78cf2002d22157-c67-0",
           "username": "italian_food",
+          "userAvatar": "https://picsum.photos/seed/italian_food/100/100",
           "text": "Looks authentic!",
-          "timestamp": "2025-09-05T19:00:00Z"
+          "timestamp": "2025-09-05T19:00:00Z",
+          "likes": 21
         }
       ],
       "reposts": 41,
@@ -1192,15 +1300,17 @@
       "username": "pilates_studio",
       "userAvatar": "https://picsum.photos/seed/user69/100/100",
       "imageUrl": "https://picsum.photos/seed/post69/600/600",
-      "caption": "Core strength session \ud83d\udcaa",
+      "caption": "Core strength session 💪",
       "likes": 567,
       "timestamp": "2025-09-05T09:30:00Z",
       "comments": [
         {
           "id": "0199dfe3be57-813b93553c481dea-c68-0",
           "username": "fitness_goals",
+          "userAvatar": "https://picsum.photos/seed/fitness_goals/100/100",
           "text": "Great form!",
-          "timestamp": "2025-09-05T10:00:00Z"
+          "timestamp": "2025-09-05T10:00:00Z",
+          "likes": 8
         }
       ],
       "reposts": 32,
@@ -1211,15 +1321,17 @@
       "username": "bird_photography",
       "userAvatar": "https://picsum.photos/seed/user70/100/100",
       "imageUrl": "https://picsum.photos/seed/post70/600/600",
-      "caption": "Hummingbird in flight \ud83e\udd9c",
+      "caption": "Hummingbird in flight 🦜",
       "likes": 3456,
       "timestamp": "2025-09-04T11:00:00Z",
       "comments": [
         {
           "id": "0199dfe3be57-44ce1de280790bb8-c69-0",
           "username": "wildlife_shots",
+          "userAvatar": "https://picsum.photos/seed/wildlife_shots/100/100",
           "text": "Perfect timing!",
-          "timestamp": "2025-09-04T12:00:00Z"
+          "timestamp": "2025-09-04T12:00:00Z",
+          "likes": 43
         }
       ],
       "reposts": 9,
@@ -1230,7 +1342,7 @@
       "username": "espresso_bar",
       "userAvatar": "https://picsum.photos/seed/user71/100/100",
       "imageUrl": "https://picsum.photos/seed/post71/600/600",
-      "caption": "Double espresso shot \u2615",
+      "caption": "Double espresso shot ☕",
       "likes": 445,
       "timestamp": "2025-09-04T07:30:00Z",
       "comments": [],
@@ -1242,15 +1354,17 @@
       "username": "landscape_painter",
       "userAvatar": "https://picsum.photos/seed/user72/100/100",
       "imageUrl": "https://picsum.photos/seed/post72/600/600",
-      "caption": "Watercolor landscape \ud83c\udfa8",
+      "caption": "Watercolor landscape 🎨",
       "likes": 1123,
       "timestamp": "2025-09-03T15:00:00Z",
       "comments": [
         {
           "id": "0199dfe3be57-2ad533571ea205c9-c71-0",
           "username": "art_teachers",
+          "userAvatar": "https://picsum.photos/seed/art_teachers/100/100",
           "text": "Beautiful technique!",
-          "timestamp": "2025-09-03T16:00:00Z"
+          "timestamp": "2025-09-03T16:00:00Z",
+          "likes": 15
         }
       ],
       "reposts": 40,
@@ -1261,15 +1375,17 @@
       "username": "boxing_fitness",
       "userAvatar": "https://picsum.photos/seed/user73/100/100",
       "imageUrl": "https://picsum.photos/seed/post73/600/600",
-      "caption": "Training day \ud83e\udd4a",
+      "caption": "Training day 🥊",
       "likes": 890,
       "timestamp": "2025-09-03T18:30:00Z",
       "comments": [
         {
           "id": "0199dfe3be57-2d7f074ebcae7f01-c72-0",
           "username": "fight_club",
+          "userAvatar": "https://picsum.photos/seed/fight_club/100/100",
           "text": "Keep pushing!",
-          "timestamp": "2025-09-03T19:00:00Z"
+          "timestamp": "2025-09-03T19:00:00Z",
+          "likes": 11
         }
       ],
       "reposts": 24,
@@ -1280,7 +1396,7 @@
       "username": "road_trip",
       "userAvatar": "https://picsum.photos/seed/user74/100/100",
       "imageUrl": "https://picsum.photos/seed/post74/600/600",
-      "caption": "On the road again \ud83d\ude97",
+      "caption": "On the road again 🚗",
       "likes": 1890,
       "timestamp": "2025-09-02T10:00:00Z",
       "comments": [],
@@ -1292,15 +1408,17 @@
       "username": "sourdough_baker",
       "userAvatar": "https://picsum.photos/seed/user75/100/100",
       "imageUrl": "https://picsum.photos/seed/post75/600/600",
-      "caption": "Perfect sourdough loaf \ud83c\udf5e",
+      "caption": "Perfect sourdough loaf 🍞",
       "likes": 1567,
       "timestamp": "2025-09-02T08:00:00Z",
       "comments": [
         {
           "id": "0199dfe3be57-d2e086a3f950bf6b-c74-0",
           "username": "bread_makers",
+          "userAvatar": "https://picsum.photos/seed/bread_makers/100/100",
           "text": "That crust!",
-          "timestamp": "2025-09-02T09:00:00Z"
+          "timestamp": "2025-09-02T09:00:00Z",
+          "likes": 19
         }
       ],
       "reposts": 17,
@@ -1311,15 +1429,17 @@
       "username": "jewelry_maker",
       "userAvatar": "https://picsum.photos/seed/user76/100/100",
       "imageUrl": "https://picsum.photos/seed/post76/600/600",
-      "caption": "Handcrafted silver ring \ud83d\udc8d",
+      "caption": "Handcrafted silver ring 💍",
       "likes": 723,
       "timestamp": "2025-09-01T14:30:00Z",
       "comments": [
         {
           "id": "0199dfe3be57-f4e4e69368581ae0-c75-0",
           "username": "craft_lovers",
+          "userAvatar": "https://picsum.photos/seed/craft_lovers/100/100",
           "text": "Gorgeous detail!",
-          "timestamp": "2025-09-01T15:00:00Z"
+          "timestamp": "2025-09-01T15:00:00Z",
+          "likes": 10
         }
       ],
       "reposts": 21,
@@ -1330,7 +1450,7 @@
       "username": "tennis_player",
       "userAvatar": "https://picsum.photos/seed/user77/100/100",
       "imageUrl": "https://picsum.photos/seed/post77/600/600",
-      "caption": "Match point! \ud83c\udfbe",
+      "caption": "Match point! 🎾",
       "likes": 1234,
       "timestamp": "2025-09-01T16:00:00Z",
       "comments": [],
@@ -1342,15 +1462,17 @@
       "username": "stargazing",
       "userAvatar": "https://picsum.photos/seed/user78/100/100",
       "imageUrl": "https://picsum.photos/seed/post78/600/600",
-      "caption": "Night sky photography \u2728",
+      "caption": "Night sky photography ✨",
       "likes": 2456,
       "timestamp": "2025-08-31T22:30:00Z",
       "comments": [
         {
           "id": "0199dfe3be57-bb0225a4350be8a5-c77-0",
           "username": "astronomy_club",
+          "userAvatar": "https://picsum.photos/seed/astronomy_club/100/100",
           "text": "Beautiful capture!",
-          "timestamp": "2025-08-31T23:00:00Z"
+          "timestamp": "2025-08-31T23:00:00Z",
+          "likes": 30
         }
       ],
       "reposts": 36,
@@ -1361,15 +1483,17 @@
       "username": "smoothie_bowls",
       "userAvatar": "https://picsum.photos/seed/user79/100/100",
       "imageUrl": "https://picsum.photos/seed/post79/600/600",
-      "caption": "Acai bowl perfection \ud83e\udd63",
+      "caption": "Acai bowl perfection 🥣",
       "likes": 945,
       "timestamp": "2025-08-31T09:00:00Z",
       "comments": [
         {
           "id": "0199dfe3be57-1c9a49df3dc9bc16-c78-0",
           "username": "healthy_breakfast",
+          "userAvatar": "https://picsum.photos/seed/healthy_breakfast/100/100",
           "text": "Yum!",
-          "timestamp": "2025-08-31T10:00:00Z"
+          "timestamp": "2025-08-31T10:00:00Z",
+          "likes": 13
         }
       ],
       "reposts": 28,
@@ -1380,7 +1504,7 @@
       "username": "sculpture_art",
       "userAvatar": "https://picsum.photos/seed/user80/100/100",
       "imageUrl": "https://picsum.photos/seed/post80/600/600",
-      "caption": "Clay sculpture in progress \ud83d\uddff",
+      "caption": "Clay sculpture in progress 🗿",
       "likes": 678,
       "timestamp": "2025-08-30T13:15:00Z",
       "comments": [],
@@ -1392,15 +1516,17 @@
       "username": "parkour_athlete",
       "userAvatar": "https://picsum.photos/seed/user81/100/100",
       "imageUrl": "https://picsum.photos/seed/post81/600/600",
-      "caption": "Urban movement \ud83c\udfc3\u200d\u2642\ufe0f",
+      "caption": "Urban movement 🏃‍♂️",
       "likes": 1890,
       "timestamp": "2025-08-30T17:00:00Z",
       "comments": [
         {
           "id": "0199dfe3be57-c9020f17b2c7f1bd-c80-0",
           "username": "freerunning",
+          "userAvatar": "https://picsum.photos/seed/freerunning/100/100",
           "text": "Smooth moves!",
-          "timestamp": "2025-08-30T18:00:00Z"
+          "timestamp": "2025-08-30T18:00:00Z",
+          "likes": 23
         }
       ],
       "reposts": 4,
@@ -1411,15 +1537,17 @@
       "username": "wine_tasting",
       "userAvatar": "https://picsum.photos/seed/user82/100/100",
       "imageUrl": "https://picsum.photos/seed/post82/600/600",
-      "caption": "Vineyard visit \ud83c\udf77",
+      "caption": "Vineyard visit 🍷",
       "likes": 1456,
       "timestamp": "2025-08-29T16:30:00Z",
       "comments": [
         {
           "id": "0199dfe3be57-d59c3bd951dd661f-c81-0",
           "username": "wine_lovers",
+          "userAvatar": "https://picsum.photos/seed/wine_lovers/100/100",
           "text": "Great choice!",
-          "timestamp": "2025-08-29T17:00:00Z"
+          "timestamp": "2025-08-29T17:00:00Z",
+          "likes": 18
         }
       ],
       "reposts": 16,
@@ -1430,7 +1558,7 @@
       "username": "drone_racing",
       "userAvatar": "https://picsum.photos/seed/user83/100/100",
       "imageUrl": "https://picsum.photos/seed/post83/600/600",
-      "caption": "FPV racing action \ud83d\ude81",
+      "caption": "FPV racing action 🚁",
       "likes": 1234,
       "timestamp": "2025-08-29T14:00:00Z",
       "comments": [],
@@ -1442,15 +1570,17 @@
       "username": "bonsai_garden",
       "userAvatar": "https://picsum.photos/seed/user84/100/100",
       "imageUrl": "https://picsum.photos/seed/post84/600/600",
-      "caption": "20-year-old bonsai tree \ud83c\udf33",
+      "caption": "20-year-old bonsai tree 🌳",
       "likes": 2134,
       "timestamp": "2025-08-28T10:00:00Z",
       "comments": [
         {
           "id": "0199dfe3be57-5941fab57fde846b-c83-0",
           "username": "zen_garden",
+          "userAvatar": "https://picsum.photos/seed/zen_garden/100/100",
           "text": "Stunning patience!",
-          "timestamp": "2025-08-28T11:00:00Z"
+          "timestamp": "2025-08-28T11:00:00Z",
+          "likes": 26
         }
       ],
       "reposts": 25,
@@ -1461,15 +1591,17 @@
       "username": "tacos_everyday",
       "userAvatar": "https://picsum.photos/seed/user85/100/100",
       "imageUrl": "https://picsum.photos/seed/post85/600/600",
-      "caption": "Taco Tuesday done right \ud83c\udf2e",
+      "caption": "Taco Tuesday done right 🌮",
       "likes": 1678,
       "timestamp": "2025-08-28T19:00:00Z",
       "comments": [
         {
           "id": "0199dfe3be57-40ba6a43d9a4b9e9-c84-0",
           "username": "mexican_food",
+          "userAvatar": "https://picsum.photos/seed/mexican_food/100/100",
           "text": "Those look authentic!",
-          "timestamp": "2025-08-28T20:00:00Z"
+          "timestamp": "2025-08-28T20:00:00Z",
+          "likes": 20
         }
       ],
       "reposts": 1,
@@ -1480,7 +1612,7 @@
       "username": "rock_climbing",
       "userAvatar": "https://picsum.photos/seed/user86/100/100",
       "imageUrl": "https://picsum.photos/seed/post86/600/600",
-      "caption": "Outdoor climbing session \ud83e\uddd7",
+      "caption": "Outdoor climbing session 🧗",
       "likes": 1890,
       "timestamp": "2025-08-27T12:30:00Z",
       "comments": [],
@@ -1492,15 +1624,17 @@
       "username": "origami_master",
       "userAvatar": "https://picsum.photos/seed/user87/100/100",
       "imageUrl": "https://picsum.photos/seed/post87/600/600",
-      "caption": "Paper crane collection \ud83e\udda2",
+      "caption": "Paper crane collection 🦢",
       "likes": 567,
       "timestamp": "2025-08-27T15:00:00Z",
       "comments": [
         {
           "id": "0199dfe3be57-c5dd3b4cbcec0c6c-c86-0",
           "username": "paper_art",
+          "userAvatar": "https://picsum.photos/seed/paper_art/100/100",
           "text": "How long did this take?",
-          "timestamp": "2025-08-27T16:00:00Z"
+          "timestamp": "2025-08-27T16:00:00Z",
+          "likes": 9
         }
       ],
       "reposts": 1,
@@ -1511,15 +1645,17 @@
       "username": "sunset_lover",
       "userAvatar": "https://picsum.photos/seed/user88/100/100",
       "imageUrl": "https://picsum.photos/seed/post88/600/600",
-      "caption": "Another day, another sunset \ud83c\udf07",
+      "caption": "Another day, another sunset 🌇",
       "likes": 3890,
       "timestamp": "2025-08-26T19:30:00Z",
       "comments": [
         {
           "id": "0199dfe3be57-13a1f0781aac3a76-c87-0",
           "username": "sky_watchers",
+          "userAvatar": "https://picsum.photos/seed/sky_watchers/100/100",
           "text": "Magical colors!",
-          "timestamp": "2025-08-26T20:00:00Z"
+          "timestamp": "2025-08-26T20:00:00Z",
+          "likes": 47
         }
       ],
       "reposts": 1,
@@ -1530,15 +1666,17 @@
       "username": "ice_cream_shop",
       "userAvatar": "https://picsum.photos/seed/user89/100/100",
       "imageUrl": "https://picsum.photos/seed/post89/600/600",
-      "caption": "Homemade gelato flavors \ud83c\udf68",
+      "caption": "Homemade gelato flavors 🍨",
       "likes": 1123,
       "timestamp": "2025-08-26T14:00:00Z",
       "comments": [
         {
           "id": "0199dfe3be57-24c09afc2dda3fcd-c88-0",
           "username": "sweet_treats",
+          "userAvatar": "https://picsum.photos/seed/sweet_treats/100/100",
           "text": "What flavors?",
-          "timestamp": "2025-08-26T15:00:00Z"
+          "timestamp": "2025-08-26T15:00:00Z",
+          "likes": 14
         }
       ],
       "reposts": 38,
@@ -1549,7 +1687,7 @@
       "username": "bmx_tricks",
       "userAvatar": "https://picsum.photos/seed/user90/100/100",
       "imageUrl": "https://picsum.photos/seed/post90/600/600",
-      "caption": "New ramp at the park \ud83d\udeb4",
+      "caption": "New ramp at the park 🚴",
       "likes": 1456,
       "timestamp": "2025-08-25T16:45:00Z",
       "comments": [],
@@ -1561,15 +1699,17 @@
       "username": "meditation_space",
       "userAvatar": "https://picsum.photos/seed/user91/100/100",
       "imageUrl": "https://picsum.photos/seed/post91/600/600",
-      "caption": "My zen corner \ud83e\uddd8\u200d\u2640\ufe0f",
+      "caption": "My zen corner 🧘‍♀️",
       "likes": 890,
       "timestamp": "2025-08-25T08:00:00Z",
       "comments": [
         {
           "id": "0199dfe3be57-2fb4fc10e664f780-c90-0",
           "username": "mindfulness_daily",
+          "userAvatar": "https://picsum.photos/seed/mindfulness_daily/100/100",
           "text": "So peaceful!",
-          "timestamp": "2025-08-25T09:00:00Z"
+          "timestamp": "2025-08-25T09:00:00Z",
+          "likes": 12
         }
       ],
       "reposts": 7,
@@ -1580,15 +1720,17 @@
       "username": "graffiti_artist",
       "userAvatar": "https://picsum.photos/seed/user92/100/100",
       "imageUrl": "https://picsum.photos/seed/post92/600/600",
-      "caption": "New mural finished \ud83c\udfa8",
+      "caption": "New mural finished 🎨",
       "likes": 2890,
       "timestamp": "2025-08-24T18:00:00Z",
       "comments": [
         {
           "id": "0199dfe3be57-5b2a6accca089fef-c91-0",
           "username": "street_art_daily",
+          "userAvatar": "https://picsum.photos/seed/street_art_daily/100/100",
           "text": "Incredible work!",
-          "timestamp": "2025-08-24T19:00:00Z"
+          "timestamp": "2025-08-24T19:00:00Z",
+          "likes": 35
         }
       ],
       "reposts": 16,
@@ -1599,15 +1741,17 @@
       "username": "pizza_master",
       "userAvatar": "https://picsum.photos/seed/user93/100/100",
       "imageUrl": "https://picsum.photos/seed/post93/600/600",
-      "caption": "Wood-fired pizza perfection \ud83c\udf55",
+      "caption": "Wood-fired pizza perfection 🍕",
       "likes": 2456,
       "timestamp": "2025-08-24T20:00:00Z",
       "comments": [
         {
           "id": "0199dfe3be57-6cc8744ec57cd1a1-c92-0",
           "username": "pizza_lovers",
+          "userAvatar": "https://picsum.photos/seed/pizza_lovers/100/100",
           "text": "That crust!",
-          "timestamp": "2025-08-24T21:00:00Z"
+          "timestamp": "2025-08-24T21:00:00Z",
+          "likes": 29
         }
       ],
       "reposts": 34,
@@ -1618,7 +1762,7 @@
       "username": "aerial_yoga",
       "userAvatar": "https://picsum.photos/seed/user94/100/100",
       "imageUrl": "https://picsum.photos/seed/post94/600/600",
-      "caption": "Floating in the air \ud83c\udfaa",
+      "caption": "Floating in the air 🎪",
       "likes": 1234,
       "timestamp": "2025-08-23T10:30:00Z",
       "comments": [],
@@ -1630,15 +1774,17 @@
       "username": "lighthouse_photos",
       "userAvatar": "https://picsum.photos/seed/user95/100/100",
       "imageUrl": "https://picsum.photos/seed/post95/600/600",
-      "caption": "Coastal lighthouse at dawn \ud83d\uddfc",
+      "caption": "Coastal lighthouse at dawn 🗼",
       "likes": 1890,
       "timestamp": "2025-08-23T06:00:00Z",
       "comments": [
         {
           "id": "0199dfe3be57-0c4e063836ba9260-c94-0",
           "username": "coastal_life",
+          "userAvatar": "https://picsum.photos/seed/coastal_life/100/100",
           "text": "Beautiful location!",
-          "timestamp": "2025-08-23T07:00:00Z"
+          "timestamp": "2025-08-23T07:00:00Z",
+          "likes": 22
         }
       ],
       "reposts": 10,
@@ -1649,15 +1795,17 @@
       "username": "succulent_garden",
       "userAvatar": "https://picsum.photos/seed/user96/100/100",
       "imageUrl": "https://picsum.photos/seed/post96/600/600",
-      "caption": "Succulent collection growing \ud83c\udf35",
+      "caption": "Succulent collection growing 🌵",
       "likes": 723,
       "timestamp": "2025-08-22T11:00:00Z",
       "comments": [
         {
           "id": "0199dfe3be57-99557145a29c8663-c95-0",
           "username": "plant_parents",
+          "userAvatar": "https://picsum.photos/seed/plant_parents/100/100",
           "text": "So many varieties!",
-          "timestamp": "2025-08-22T12:00:00Z"
+          "timestamp": "2025-08-22T12:00:00Z",
+          "likes": 10
         }
       ],
       "reposts": 22,
@@ -1668,7 +1816,7 @@
       "username": "crossfit_athlete",
       "userAvatar": "https://picsum.photos/seed/user97/100/100",
       "imageUrl": "https://picsum.photos/seed/post97/600/600",
-      "caption": "WOD completed! \ud83d\udcaa",
+      "caption": "WOD completed! 💪",
       "likes": 1567,
       "timestamp": "2025-08-22T18:00:00Z",
       "comments": [],
@@ -1680,15 +1828,17 @@
       "username": "aurora_chaser",
       "userAvatar": "https://picsum.photos/seed/user98/100/100",
       "imageUrl": "https://picsum.photos/seed/post98/600/600",
-      "caption": "Northern lights dancing \ud83c\udf0c",
+      "caption": "Northern lights dancing 🌌",
       "likes": 4567,
       "timestamp": "2025-08-21T23:00:00Z",
       "comments": [
         {
           "id": "0199dfe3be57-b8f5ba3a03721eac-c97-0",
           "username": "night_sky",
+          "userAvatar": "https://picsum.photos/seed/night_sky/100/100",
           "text": "Once in a lifetime!",
-          "timestamp": "2025-08-22T00:00:00Z"
+          "timestamp": "2025-08-22T00:00:00Z",
+          "likes": 54
         }
       ],
       "reposts": 40,
@@ -1699,15 +1849,17 @@
       "username": "ramen_specialist",
       "userAvatar": "https://picsum.photos/seed/user99/100/100",
       "imageUrl": "https://picsum.photos/seed/post99/600/600",
-      "caption": "Homemade ramen bowl \ud83c\udf5c",
+      "caption": "Homemade ramen bowl 🍜",
       "likes": 1890,
       "timestamp": "2025-08-21T19:30:00Z",
       "comments": [
         {
           "id": "0199dfe3be57-0c6381b5271902cb-c98-0",
           "username": "noodle_lovers",
+          "userAvatar": "https://picsum.photos/seed/noodle_lovers/100/100",
           "text": "Recipe?",
-          "timestamp": "2025-08-21T20:00:00Z"
+          "timestamp": "2025-08-21T20:00:00Z",
+          "likes": 23
         }
       ],
       "reposts": 42,
@@ -1718,21 +1870,25 @@
       "username": "balloon_artist",
       "userAvatar": "https://picsum.photos/seed/user100/100/100",
       "imageUrl": "https://picsum.photos/seed/post100/600/600",
-      "caption": "Hot air balloon ride \ud83c\udf88",
+      "caption": "Hot air balloon ride 🎈",
       "likes": 3456,
       "timestamp": "2025-08-21T07:00:00Z",
       "comments": [
         {
           "id": "0199dfe3be57-7500ec7588136b59-c99-0",
           "username": "adventure_seekers",
+          "userAvatar": "https://picsum.photos/seed/adventure_seekers/100/100",
           "text": "Bucket list item!",
-          "timestamp": "2025-08-21T08:00:00Z"
+          "timestamp": "2025-08-21T08:00:00Z",
+          "likes": 41
         },
         {
           "id": "0199dfe3be58-a74cea8aaa6928a2-c99-1",
           "username": "sky_high",
+          "userAvatar": "https://picsum.photos/seed/sky_high/100/100",
           "text": "What an experience!",
-          "timestamp": "2025-08-21T09:00:00Z"
+          "timestamp": "2025-08-21T09:00:00Z",
+          "likes": 38
         }
       ],
       "reposts": 11,
