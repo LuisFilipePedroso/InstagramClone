@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import SDWebImageSwiftUI
 
 struct Home: View {
     
@@ -86,8 +85,7 @@ struct Home: View {
         ForEach(viewModel.posts) { post in
             VStack {
                 HStack {
-                    WebImage(url: URL(string: post.userAvatar))
-                        .resizable()
+                    CachedImage(url: post.userAvatar)
                         .aspectRatio(contentMode: .fill)
                         .frame(width: 40, height: 40)
                         .clipShape(Circle())
@@ -97,8 +95,7 @@ struct Home: View {
                         .font(.system(size: 18, weight: .bold))
                 }
                 .foregroundStyle(.primaryText)
-                WebImage(url: URL(string: post.imageURL))
-                    .resizable()
+                CachedImage(url: post.imageURL)
                     .aspectRatio(contentMode: .fill)
                     .frame(height: 300)
                     .clipShape(RoundedRectangle(cornerRadius: 8))
