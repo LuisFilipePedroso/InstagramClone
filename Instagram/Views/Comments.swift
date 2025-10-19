@@ -13,6 +13,8 @@ struct Comments: View {
     @State private var comment: String = ""
     var post: Post
     
+    let randomEmoji = Int.random(in: 0x1F680...0x1F6FF)
+    
     var body: some View {
         ZStack(alignment: .top) {
             Color.background.ignoresSafeArea()
@@ -21,7 +23,7 @@ struct Comments: View {
                     .foregroundStyle(.primaryText)
                     .font(.body)
                     .fontWeight(.semibold)
-                    .padding(.top, 8)
+                    .padding(.top, 24)
                 
                 ScrollView {
                     LazyVStack {
@@ -35,18 +37,14 @@ struct Comments: View {
                     Divider()
                         .background(.surface)
                     
-                    HStack() {
-                        Text("♥️")
-                        Text("😎")
-                        Text("🚀")
-                        Text("🥳")
-                        Text("🧐")
-                        Text("🔥")
-                        Text("😂")
-                        Spacer()
+                    HStack(spacing: 14) {
+                        ForEach(0..<10) { _ in
+                            Text(String(Unicode.Scalar(getRandomEmoji())!))
+                        }
                     }
                     .padding(.top, 8)
                     .padding(.horizontal)
+                    .font(.title2)
                     
                     HStack {
                         Circle()
@@ -72,6 +70,10 @@ struct Comments: View {
                     .padding(.horizontal)
                 }
             }
+            .onAppear {
+                print(Unicode.Scalar(randomEmoji)!)
+            }
+            .presentationDetents([.fraction(0.85)])
             .presentationDragIndicator(.visible)
         }
     }
@@ -112,6 +114,10 @@ struct Comments: View {
         }
         .padding(.top, 32)
         .padding(.horizontal)
+    }
+    
+    private func getRandomEmoji() -> Int {
+        Int.random(in: 0x1F600...0x1F64F)
     }
 }
 
