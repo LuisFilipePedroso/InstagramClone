@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import SDWebImageSwiftUI
 
 struct Comments: View {
     
@@ -80,8 +79,7 @@ struct Comments: View {
     
     private func CommentsListItem(comment: Comment) -> some View {
         HStack(spacing: 12) {
-            WebImage(url: URL(string: comment.userAvatar))
-                .resizable()
+            CachedImage(url: comment.userAvatar)
                 .aspectRatio(contentMode: .fill)
                 .frame(width: 40, height: 40)
                 .clipShape(Circle())
