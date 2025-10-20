@@ -69,9 +69,6 @@ struct Comments: View {
                     .padding(.horizontal)
                 }
             }
-            .onAppear {
-                print(Unicode.Scalar(randomEmoji)!)
-            }
             .presentationDetents([.fraction(0.85)])
             .presentationDragIndicator(.visible)
         }
@@ -84,8 +81,15 @@ struct Comments: View {
                 .frame(width: 40, height: 40)
                 .clipShape(Circle())
             VStack(alignment: .leading, spacing: 6) {
-                Text(comment.username)
-                    .font(.subheadline)
+                HStack(spacing: 8) {
+                    Text(comment.username)
+                        .font(.subheadline)
+                    
+                    Text(comment.timestamp.asAbbreviatedString())
+                        .font(.caption)
+                        .foregroundStyle(.secondaryText)
+                }
+                
                 Text(comment.text)
                 
                 HStack(spacing: 12) {
