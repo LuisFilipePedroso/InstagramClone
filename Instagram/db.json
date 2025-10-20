@@ -7,14 +7,14 @@
       "imageUrl": "https://picsum.photos/seed/post1/600/600",
       "caption": "Beautiful sunset at the beach 🌅",
       "likes": 342,
-      "timestamp": "2025-10-07T18:30:00Z",
+      "timestamp": "2025-10-20T20:01:00Z",
       "comments": [
         {
           "id": "0199dfe3be56-30160a76838d8134-c0-0",
           "username": "sarah_m",
           "userAvatar": "https://picsum.photos/seed/sarah_m/100/100",
           "text": "Stunning shot!",
-          "timestamp": "2025-10-07T19:00:00Z",
+          "timestamp": "2025-10-20T20:01:00Z",
           "likes": 12
         },
         {
@@ -22,7 +22,7 @@
           "username": "mike_travel",
           "userAvatar": "https://picsum.photos/seed/mike_travel/100/100",
           "text": "Where is this?",
-          "timestamp": "2025-10-07T19:15:00Z",
+          "timestamp": "2025-10-20T22:15:00Z",
           "likes": 8
         }
       ],
