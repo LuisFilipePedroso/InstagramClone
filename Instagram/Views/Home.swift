@@ -109,7 +109,7 @@ struct Home: View {
                     FeedActionButton(iconName: "paperplane", text: post.sends)
                     Spacer()
                     Image(systemName: "bookmark")
-                        .font(.system(size: 18, weight: .bold))
+                        .font(.system(size: 15, weight: .semibold))
                         .foregroundStyle(.primaryText)
                 }
                 .padding(.top, 8)
@@ -130,7 +130,7 @@ struct Home: View {
     private func FeedActionButton(iconName: String, text: Int) -> some View {
         HStack(spacing: 4) {
             Image(systemName: iconName)
-                .font(.system(size: 18, weight: .bold))
+                .font(.system(size: 15, weight: .semibold))
             Text("\(text)")
         }
         .foregroundStyle(.primaryText)
