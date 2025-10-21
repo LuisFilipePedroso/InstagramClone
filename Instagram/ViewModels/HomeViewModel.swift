@@ -12,10 +12,12 @@ import SwiftUI
 class HomeViewModel {
     
     private(set) var posts: [Post] = []
+    private(set) var isLoading = false
+    private(set) var hasMore = true
     private var page = 1
-    private var isLoading = false
-    private var hasMore = true
     
+    var activePost: Post? = nil
+
     private let postDataService = PostDataService()
     
     func fetchPosts() async {

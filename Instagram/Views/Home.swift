@@ -9,9 +9,10 @@ import SwiftUI
 
 struct Home: View {
     
+    @Environment(HomeViewModel.self) private var homeViewModel
     @State private var headerOpacity: Double = 1
-    @State private var viewModel = HomeViewModel()
     @State private var activePost: Post? = nil
+    @State private var showFullDescription: Bool = false
     
     var body: some View {
         ZStack(alignment: .top) {
@@ -38,7 +39,7 @@ struct Home: View {
             }
         }
         .task {
-            await viewModel.fetchPosts()
+            await homeViewModel.fetchPosts()
         }
         .sheet(item: $activePost, onDismiss: {
             activePost = nil
@@ -82,59 +83,19 @@ struct Home: View {
     }
     
     private var Feed: some View {
-        ForEach(viewModel.posts) { post in
-            VStack {
-                HStack {
-                    CachedImage(url: post.userAvatar)
-                        .aspectRatio(contentMode: .fill)
-                        .frame(width: 40, height: 40)
-                        .clipShape(Circle())
-                    Text(post.username)
-                    Spacer()
-                    Image(systemName: "ellipsis")
-                        .font(.system(size: 18, weight: .bold))
-                }
-                .foregroundStyle(.primaryText)
-                CachedImage(url: post.imageURL)
-                    .aspectRatio(contentMode: .fill)
-                    .frame(height: 300)
-                    .clipShape(RoundedRectangle(cornerRadius: 8))
-                HStack {
-                    FeedActionButton(iconName: "heart", text: post.likes)
-                    FeedActionButton(iconName: "bubble.right", text: post.comments.count)
-                        .onTapGesture {
-                            activePost = post
+        ForEach(homeViewModel.posts) { post in
+            FeedItem(post: post)
+                .padding()
+                .onAppear {
+                    if post.id == homeViewModel.posts.last?.id {
+                        Task {
+                            await homeViewModel.fetchPosts()
                         }
-                    FeedActionButton(iconName: "arrow.2.squarepath", text: post.reposts)
-                    FeedActionButton(iconName: "paperplane", text: post.sends)
-                    Spacer()
-                    Image(systemName: "bookmark")
-                        .font(.system(size: 15, weight: .semibold))
-                        .foregroundStyle(.primaryText)
-                }
-                .padding(.top, 8)
-                    
-            }
-            .padding()
-            .onAppear {
-                if post.id == viewModel.posts.last?.id {
-                    Task {
-                        await viewModel.fetchPosts()
                     }
-                    print("Last: \(post)")
                 }
-            }
         }
     }
     
-    private func FeedActionButton(iconName: String, text: Int) -> some View {
-        HStack(spacing: 4) {
-            Image(systemName: iconName)
-                .font(.system(size: 15, weight: .semibold))
-            Text("\(text)")
-        }
-        .foregroundStyle(.primaryText)
-    }
 }
 
 #Preview {
