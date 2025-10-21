@@ -23,7 +23,7 @@ struct FeedCaption: View {
                         showFullDescription.toggle()
                     }
                 } label: {
-                    Text(showFullDescription ? "Less" : "more...")
+                    Text("more")
                         .font(.caption)
                         .fontWeight(.semibold)
                         .foregroundStyle(.secondaryText)
