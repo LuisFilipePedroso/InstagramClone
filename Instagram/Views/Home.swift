@@ -11,10 +11,11 @@ struct Home: View {
     
     @Environment(HomeViewModel.self) private var homeViewModel
     @State private var headerOpacity: Double = 1
-    @State private var activePost: Post? = nil
     @State private var showFullDescription: Bool = false
     
     var body: some View {
+        @Bindable var viewModel = homeViewModel
+        
         ZStack(alignment: .top) {
             Color.background.ignoresSafeArea()
             
@@ -41,8 +42,8 @@ struct Home: View {
         .task {
             await homeViewModel.fetchPosts()
         }
-        .sheet(item: $activePost, onDismiss: {
-            activePost = nil
+        .sheet(item: $viewModel.activePost, onDismiss: {
+            homeViewModel.activePost = nil
         }) { post in
             Comments(post: post)
         }
