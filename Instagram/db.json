@@ -1,55 +1,55 @@
 {
   "posts": [
-    {
-      "id": "0199dfe3be56-2b040c98f860ec42-0000",
-      "username": "alex_photo",
-      "userAvatar": "https://picsum.photos/seed/user1/100/100",
-      "imageUrl": "https://picsum.photos/seed/post1/600/600",
-      "caption": "Beautiful sunset at the beach 🌅",
-      "likes": 342,
-      "timestamp": "2025-10-20T20:01:00Z",
-      "comments": [
-        {
-          "id": "0199dfe3be56-30160a76838d8134-c0-0",
-          "username": "sarah_m",
-          "userAvatar": "https://picsum.photos/seed/sarah_m/100/100",
-          "text": "Stunning shot!",
-          "timestamp": "2025-10-20T20:01:00Z",
-          "likes": 12
-        },
-        {
-          "id": "0199dfe3be56-c1b45e90f6ba94c2-c0-1",
-          "username": "mike_travel",
-          "userAvatar": "https://picsum.photos/seed/mike_travel/100/100",
-          "text": "Where is this?",
-          "timestamp": "2025-10-20T22:15:00Z",
-          "likes": 8
-        }
-      ],
-      "reposts": 40,
-      "sends": 5
-    },
-    {
-      "id": "0199dfe3be56-37c7183b04122e42-0001",
-      "username": "foodie_jenny",
-      "userAvatar": "https://picsum.photos/seed/user2/100/100",
-      "imageUrl": "https://picsum.photos/seed/post2/600/600",
-      "caption": "Best pasta in town! 🍝",
-      "likes": 521,
-      "timestamp": "2025-10-07T12:15:00Z",
-      "comments": [
-        {
-          "id": "0199dfe3be56-b121123edbb337c8-c1-0",
-          "username": "chef_mario",
-          "userAvatar": "https://picsum.photos/seed/chef_mario/100/100",
-          "text": "Looks delicious!",
-          "timestamp": "2025-10-07T13:00:00Z",
-          "likes": 15
-        }
-      ],
-      "reposts": 13,
-      "sends": 25
-    },
+  {
+    "id": "0199dfe3be56-2b040c98f860ec42-0000",
+    "username": "alex_photo",
+    "userAvatar": "https://picsum.photos/seed/user1/100/100",
+    "imageUrl": "https://picsum.photos/seed/post1/600/600",
+    "caption": "Beautiful sunset at the beach 🌅 There's something magical about watching the day fade into night, with the sky painted in brilliant oranges, pinks, and purples. The gentle sound of waves crashing against the shore, the warm breeze carrying the scent of salt water, and this breathtaking view made for an absolutely perfect evening. These are the moments that remind us to slow down and appreciate the natural beauty around us. Mother Nature never fails to put on an incredible show 🌊✨ #SunsetVibes #BeachLife #GoldenHour #NaturePhotography #CoastalLiving",
+    "likes": 342,
+    "timestamp": "2025-10-20T20:01:00Z",
+    "comments": [
+      {
+        "id": "0199dfe3be56-30160a76838d8134-c0-0",
+        "username": "sarah_m",
+        "userAvatar": "https://picsum.photos/seed/sarah_m/100/100",
+        "text": "Stunning shot!",
+        "timestamp": "2025-10-20T20:01:00Z",
+        "likes": 12
+      },
+      {
+        "id": "0199dfe3be56-c1b45e90f6ba94c2-c0-1",
+        "username": "mike_travel",
+        "userAvatar": "https://picsum.photos/seed/mike_travel/100/100",
+        "text": "Where is this?",
+        "timestamp": "2025-10-20T22:15:00Z",
+        "likes": 8
+      }
+    ],
+    "reposts": 40,
+    "sends": 5
+  },
+  {
+    "id": "0199dfe3be56-37c7183b04122e42-0001",
+    "username": "foodie_jenny",
+    "userAvatar": "https://picsum.photos/seed/user2/100/100",
+    "imageUrl": "https://picsum.photos/seed/post2/600/600",
+    "caption": "Best pasta in town! 🍝 Just discovered this incredible little Italian spot and I'm completely blown away. The pasta is perfectly al dente, the sauce is rich and flavorful with the perfect balance of herbs and spices, and every bite is pure comfort food heaven. The chef clearly knows what they're doing - you can taste the quality in every ingredient. If you're a pasta lover like me, you absolutely need to check this place out. Trust me, your taste buds will thank you! Already planning my next visit 😋👨‍🍳 #Foodie #PastaLover #ItalianFood #FoodHeaven #RestaurantReview",
+    "likes": 521,
+    "timestamp": "2025-10-07T12:15:00Z",
+    "comments": [
+      {
+        "id": "0199dfe3be56-b121123edbb337c8-c1-0",
+        "username": "chef_mario",
+        "userAvatar": "https://picsum.photos/seed/chef_mario/100/100",
+        "text": "Looks delicious!",
+        "timestamp": "2025-10-07T13:00:00Z",
+        "likes": 15
+      }
+    ],
+    "reposts": 13,
+    "sends": 25
+  },
     {
       "id": "0199dfe3be56-aece587f1085c1c4-0002",
       "username": "travel_chris",
