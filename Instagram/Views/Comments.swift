@@ -46,9 +46,10 @@ struct Comments: View {
                     .font(.title2)
                     
                     HStack {
-                        Circle()
-                            .fill(Color.surface)
-                            .frame(width: 48, height: 48)
+                        CachedImage(url: post.userAvatar)
+                            .aspectRatio(contentMode: .fill)
+                            .frame(width: 40, height: 40)
+                            .clipShape(Circle())
                         
                         TextField(
                             "",
