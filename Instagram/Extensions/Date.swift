@@ -22,4 +22,15 @@ extension Date {
         let from = Date().timeIntervalSince(self)
         return abbreviatedFormatter.string(from: from) ?? ""
     }
+
+    private var shortFormatter: RelativeDateTimeFormatter {
+        let formatter = RelativeDateTimeFormatter()
+        formatter.unitsStyle = .full
+        
+        return formatter
+    }
+    
+    func asShortString() -> String {
+        return shortFormatter.localizedString(for: self, relativeTo: Date())
+    }
 }
