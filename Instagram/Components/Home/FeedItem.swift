@@ -31,6 +31,15 @@ struct FeedItem: View {
             
             FeedActionButtons(post: post)
             FeedCaption(post: post)
+            
+            HStack {
+                Text(post.timestamp.asShortString())
+                    .font(.caption)
+                    .foregroundStyle(.secondaryText)
+                    .padding(.top, 4)
+                
+                Spacer()
+            }
         }
     }
 }
