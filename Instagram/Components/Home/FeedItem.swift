@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SDWebImageSwiftUI
 
 struct FeedItem: View {
     
@@ -14,7 +15,7 @@ struct FeedItem: View {
     var body: some View {
         VStack {
             HStack {
-                CachedImage(url: post.userAvatar)
+                WebImage(url: URL(string: post.userAvatar))
                     .aspectRatio(contentMode: .fill)
                     .frame(width: 40, height: 40)
                     .clipShape(Circle())
@@ -24,10 +25,13 @@ struct FeedItem: View {
                     .font(.system(size: 18, weight: .bold))
             }
             .foregroundStyle(.primaryText)
-            CachedImage(url: post.imageURL)
+            
+            WebImage(url: URL(string: post.imageURL))
+                .resizable()
                 .aspectRatio(contentMode: .fill)
                 .frame(height: 300)
                 .clipShape(RoundedRectangle(cornerRadius: 8))
+                .padding(.horizontal, 0)
             
             FeedActionButtons(post: post)
             FeedCaption(post: post)

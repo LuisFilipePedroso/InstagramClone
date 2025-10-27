@@ -6,13 +6,16 @@
 //
 
 import SwiftUI
+import SDWebImageSwiftUI
 
 struct Comments: View {
     
     @State private var comment: String = ""
-    var post: Post
+    @State private var selectedDetent: PresentationDetent = .medium
+    @FocusState private var isInputFocused: Bool
     
-    let randomEmoji = Int.random(in: 0x1F680...0x1F6FF)
+    var post: Post
+    var emojis: [Int]
     
     var body: some View {
         ZStack(alignment: .top) {
@@ -32,21 +35,21 @@ struct Comments: View {
                     }
                 }
                 
-                VStack {
+                VStack(spacing: 8) {
                     Divider()
                         .background(.surface)
                     
                     HStack(spacing: 14) {
-                        ForEach(0..<10) { _ in
-                            Text(String(Unicode.Scalar(getRandomEmoji())!))
+                        ForEach(emojis, id: \.self) { emoji in
+                            Text(String(Unicode.Scalar(emoji)!))
                         }
                     }
-                    .padding(.top, 8)
                     .padding(.horizontal)
                     .font(.title2)
                     
                     HStack {
-                        CachedImage(url: post.userAvatar)
+                        WebImage(url: URL(string: post.userAvatar))
+                            .resizable()
                             .aspectRatio(contentMode: .fill)
                             .frame(width: 40, height: 40)
                             .clipShape(Circle())
@@ -58,6 +61,7 @@ struct Comments: View {
                                 .foregroundStyle(.secondaryText)
                                 .font(.subheadline)
                         )
+                        .focused($isInputFocused)
                         .foregroundStyle(.secondaryText)
                         .frame(height: 40)
                         .padding(.horizontal, 16)
@@ -66,18 +70,26 @@ struct Comments: View {
                                 .stroke(Color.surface, lineWidth: 2)
                         )
                     }
-                    .padding(.top, 8)
                     .padding(.horizontal)
                 }
+                .padding(.top, 8)
             }
-            .presentationDetents([.fraction(0.85)])
+            .presentationDetents([.medium, .large])
             .presentationDragIndicator(.visible)
+            .onChange(of: isInputFocused) { _, newValue in
+                if newValue {
+                    selectedDetent = .large
+                } else {
+                    selectedDetent = .medium
+                }
+            }
         }
     }
     
     private func CommentsListItem(comment: Comment) -> some View {
         HStack(spacing: 12) {
-            CachedImage(url: comment.userAvatar)
+            WebImage(url: URL(string: comment.userAvatar))
+                .resizable()
                 .aspectRatio(contentMode: .fill)
                 .frame(width: 40, height: 40)
                 .clipShape(Circle())
@@ -118,12 +130,9 @@ struct Comments: View {
         .padding(.top, 32)
         .padding(.horizontal)
     }
-    
-    private func getRandomEmoji() -> Int {
-        Int.random(in: 0x1F600...0x1F64F)
-    }
+
 }
 
 #Preview {
-    Comments(post: Post.preview)
+    Comments(post: Post.preview, emojis: [])
 }

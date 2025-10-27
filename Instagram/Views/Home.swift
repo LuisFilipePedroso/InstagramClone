@@ -36,16 +36,16 @@ struct Home: View {
                     let opacity = 1.0 - (newValue / fadeDistance)
                     headerOpacity = max(0, min(1, opacity))
                 }
-
+            }
+            .sheet(item: $viewModel.activePost, onDismiss: {
+                homeViewModel.activePost = nil
+            }) { post in
+                let emojis = (0..<10).map { _ in getRandomEmoji() }
+                Comments(post: post, emojis: emojis)
             }
         }
         .task {
             await homeViewModel.fetchPosts()
-        }
-        .sheet(item: $viewModel.activePost, onDismiss: {
-            homeViewModel.activePost = nil
-        }) { post in
-            Comments(post: post)
         }
     }
     
@@ -97,6 +97,9 @@ struct Home: View {
         }
     }
     
+    private func getRandomEmoji() -> Int {
+        Int.random(in: 0x1F600...0x1F64F)
+    }
 }
 
 #Preview {
